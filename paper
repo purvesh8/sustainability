@@ -1,0 +1,1356 @@
+applied
+sciences
+Review
+Industry 4.0 Technologies for Manufacturing Sustainability:
+A Systematic Review and Future Research Directions
+Anbesh Jamwal 1 , Rajeev Agrawal 1 , Monica Sharma 1,2 and Antonio Giallanza 3,*
+
+
+Citation: Jamwal, A.; Agrawal, R.;
+Sharma, M.; Giallanza, A. Industry
+4.0 Technologies for Manufacturing
+Sustainability: A Systematic Review
+and Future Research Directions. Appl.
+Sci. 2021, 11, 5725. https://doi.org/
+10.3390/app11125725
+Academic Editor: Richard
+(Chunhui) Yang
+Received: 1 June 2021
+Accepted: 18 June 2021
+Published: 20 June 2021
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+1 Department of Mechanical Engineering, Malaviya National Institute of Technology, J.L.N. Marg, Jaipur,
+Rajasthan 302017, India; anveshjamwal73@gmail.com (A.J.); ragrawal.mech@mnit.ac.in (R.A.);
+msharma.dms@mnit.ac.in (M.S.)
+2 Department of Management Studies, Malaviya National Institute of Technology, J.L.N. Marg, Jaipur,
+Rajasthan 302017, India
+3 Engineering Department, University of Palermo, Viale delle Scienze Building 8, 90128 Palermo, Italy
+* Correspondence: antonio.giallanza@unipa.it; Tel.: +39-091-2386-1861
+Abstract: Recent developments in manufacturing processes and automation have led to the new
+industrial revolution termed “Industry 4.0”. Industry 4.0 can be considered as a broad domain which
+includes: data management, manufacturing competitiveness, production processes and efficiency.
+The term Industry 4.0 includes a variety of key enabling technologies i.e., cyber physical systems,
+Internet of Things, artificial intelligence, big data analytics and digital twins which can be considered
+as the major contributors to automated and digital manufacturing environments. Sustainability
+can be considered as the core of business strategy which is highlighted in the United Nations (UN)
+Sustainability 2030 agenda and includes smart manufacturing, energy efficient buildings and lowimpact
+industrialization. Industry 4.0 technologies help to achieve sustainability in business practices.
+However, very limited studies reported about the extensive reviews on these two research areas.
+This study uses a systematic literature review approach to find out the current research progress and
+future research potential of Industry 4.0 technologies to achieve manufacturing sustainability. The
+role and impact of different Industry 4.0 technologies for manufacturing sustainability is discussed
+in detail. The findings of this study provide new research scopes and future research directions in
+different research areas of Industry 4.0 which will be valuable for industry and academia in order to
+achieve manufacturing sustainability with Industry 4.0 technologies.
+Keywords: Industry 4.0; sustainability; manufacturing; smart manufacturing; Internet of Things;
+cloud manufacturing; artificial intelligence; sustainable manufacturing
+1. Introduction
+Competitive business environment, mass customization and globalization are forcing
+“traditional” industries to adopt new business models and shift towards Industry 4.0 [1,2].
+Industry 4.0 technologies can be considered as the new revolution in manufacturing which
+aims to achieve maximum efficiency and output by minimum resource utilization [3].
+Industry 4.0 technologies have brought a new manufacturing trend in industries which
+aimed at effective resource utilization for maximum output. “Smart manufacturing”
+or “digital manufacturing” can be considered as the core of Industry 4.0 which allows
+industries to perform flexible manufacturing operations with mass customization [4].
+Zhong et al. [5] stated that Industry 4.0 is a German initiative which aimed at creating
+smart factories in which manufacturing technologies are transformed and upgraded by
+the Internet of Things (IoT) and cyber-physical systems (CPS). Manufacturing systems in
+Industry 4.0 can monitor the physical processes of industry and create a so called “digital
+twin” of physical entities [6]. This helps to establish real time communication, intelligent
+decision making and man–machine interaction in manufacturing organizations. Industry
+4.0 technologies combined smart production with embedded production system which has
+Appl. Sci. 2021, 11, 5725. https://doi.org/10.3390/app11125725 https://www.mdpi.com/journal/applsci
+Appl. Sci. 2021, 11, 5725 2 of 27
+transformed the production value chains, industry value chain and traditional business
+models of organizations [7]. IoT, CPS, augmented and virtual reality, blockchain technology,
+machine learning (ML), artificial intelligence (AI), big data analytics and digital twins can
+be considered as key enabling technologies for Industry 4.0 practices [8]. It is believed that
+Industry 4.0 technologies will help to enhance the social and economic sustainability of
+organizations [3]. Industry 4.0 technologies have a remarkable potential for sustainable
+value creation across the economic, environmental and social dimension of sustainability
+by improving resource efficiency [9].
+Despite the probable opportunities for manufacturing sustainability in Industry 4.0,
+there are few review studies that have explored the Industry 4.0 technologies with different
+sustainability perspectives [4,8–10]. Stock and Seliger [3] highlighted the sustainable manufacturing
+(SM) opportunities in Industry 4.0. Kamble et al. [10] developed a sustainability
+framework for Industry 4.0. Jabbour et al. [9] identified critical success factors for SM
+in Industry 4.0 era. Machado et al. [4] highlighted new research trends and scopes for
+SM in Industry 4.0. Sharma et al. [8] presented a bibliometric-based review to highlight
+research opportunities for SM in Industry 4.0. Bag et al. [11] highlighted the relationship
+between the circular economy, SM and Industry 4.0 practices. This shows that there is
+growing interest in the area of SM and Industry 4.0, yet there is scarcity of systematic
+review which highlight new research scopes for manufacturing sustainability in Industry
+4.0. The past review studies were limited to a specific database. This paper seeks to explore
+the research trends and scopes for manufacturing sustainability in Industry 4.0 with three
+major databases i.e., IEEE, Web of Sciences and Scopus. This paper also highlights the
+research trends in manufacturing area in ten different Industry 4.0 technologies and then
+provide the sustainability issues for manufacturing.
+The structure of this review paper is as follows. Section 2 highlights the basic concepts
+and terminology related to sustainability and Industry 4.0. Section 3 presents the review
+protocol and methodology. Section 4 presents the results of systematic literature review.
+Section 5 presents the role of different Industry 4.0 technologies to achieve sustainability.
+Section 6 presents the opportunities of Industry 4.0 technologies to achieve manufacturing
+sustainability. Section 7 presents research gaps in Industry 4.0 to achieve sustainability, and
+Section 8 presents the conclusion and future scopes of study.
+2. Basic Concepts and Terminology
+In this section basic terminologies of sustainable manufacturing (SM) and Industry
+4.0 are presented to construct the link between both these two approaches.
+2.1. Concept and Definitions of Sustainable Manufacturing
+Sustainable manufacturing covers the three basic elements involved in manufacturing
+i.e., processes, products and systems which enables economic growth and sustainable value
+creation in industries [12]. To ensure sustainability in manufacturing these three elements
+must individually demonstrate the benefits at the social, economic and environmental
+levels [13]. Sustainable manufacturing can be described as the integration of systems and
+various processes to produce a high quality of products with minimum resource utilization,
+sustainable resources, being safer for customers, employees and communities [14].
+Main Definitions of Sustainable Manufacturing (SM)
+The first definition for sustainability is discussed in the United Nations (UN) Brundtland
+Commission report published in 1987: “Development which meets the needs of
+current generation without compromising the ability of future generations to meet their
+own needs” [15]. This definition was further used in different initiatives e.g., the 2015
+Sustainable Development Goals UN initiative. This definition is not acceptable in operational
+areas of manufacturing [16]. Several efforts have been made to propose a definition
+for SM in previously published studies [12,14]. Jayal et al. [14] defined SM as the design
+of industrial system which can ensure the natural resources for quality of life and have
+Appl. Sci. 2021, 11, 5725 3 of 27
+minimum negative impact on environmental and human health. The US Department of
+Commerce defined SM as “the creation of products through the processes that minimize
+both negative environmental impacts and consumption of energy and natural resources,
+being also safe for employees, communities, consumers and economically viable” [17].
+2.2. Industry 4.0
+Industry 4.0 is also termed the “fourth industrial revolution” coined at the Hanover
+fair, 2011, in Germany [6,18]. The German Federal Government launched Industry 4.0 as the
+high-technology plan for German industries in 2014 [4]. Industry 4.0 can be described as the
+current trends in data exchange and automation between the manufacturing technologies
+or activities. Industry 4.0 is focused on the development of “smart” factories which
+can meet the dynamic manufacturing scenarios, management goals and new business
+models [2]. Cyber physical systems (CPS), augmented and virtual reality, blockchain
+technology, additive manufacturing, flexible manufacturing system, reconfigurability,
+Internet of Things (IoT), machine and deep learning, artificial intelligence, big data analytics
+and cloud computing are the main key enabling technologies of Industry 4.0 [19,20]. The
+past three industrial revolutions (Industry 1.0; Industry 2.0; Industry 3.0) were driven
+by mechanization, electrification and information technology in manufacturing which
+enhanced resource utilization as well as productivity [5]. In Industry 4.0, the CPS is the
+underlying technology which has the potential for mass customization by modularity
+and changeability in production systems [10]. CPS can connect physical entities, enable
+man–machine interaction, infrastructure, processes and other activities in system when
+connected with IoT [21]. The interaction between IoT and CPS enables the communication
+between the physical entities and virtual world by exchanging data collected through
+sensors and generated from manufacturing activities [22]. Meanwhile other technologies
+of Industry 4.0 act as enablers for Industry 4.0-enabled business practices.
+2.3. Relationship and Link between Industry 4.0 and Sustainable Manufacturing
+Both sustainability and Industry 4.0 are the emerging research areas in the engineering.
+The main practices in these two areas are sustainable designing, life-cycle management,
+re-manufacturing, circular economy, lean and green management, environmental management.
+Stock and Seliger [3] discussed the macro and micro perspective of the sustainable
+manufacturing in Industry 4.0. It is found that Industry 4.0 technologies helps to create
+sustainable value in all three dimensions of sustainability. New opportunities have
+been discussed such as: (1) business models driven by smart data; (2) closed loop supply
+chain networks; (3) digitalization in small and medium enterprises (SMEs); (4) training
+of employees with information and communication technologies (ICT); (5) sustainable
+product design; and, (6) decentralized manufacturing lines. Kamble et al. [10] presented the
+sustainable Industry 4.0 framework and discussed the sustainable benefits from Industry
+4.0 technologies in terms of resource efficiency and productivity. Bag et al. [11] discussed
+how sustainable manufacturing and Industry 4.0 practices can improve the energy consumption,
+waste reduction and resource efficiency. The relationship between Industry 4.0
+and sustainable manufacturing was discussed with the help of a conceptual framework.
+Machado et al. [4] discussed the emerging research areas in the sustainable manufacturing
+and Industry 4.0 by a systematic literature review and highlighted some research scopes
+related to supply chains and man-machine interaction.
+3. Materials and Methods
+In the present study we have used the systematic literature review (SLR) approach
+which helps to deliver a comprehensive and clear overview of literature analysis as compared
+to a descriptive literature review. Refs. [23–25] stated that systematic literature as
+a suitable approach to identify the new research opportunities in a research area by analyzing
+and synthesizing previously published articles. However, Petticrew [26] defined a
+systematic literature review as:
+Appl. Sci. 2021, 11, 5725 4 of 27
+“An efficient technique for hypothesis testing, for summarizing the results of
+existing studies, and for assessing consistency among previous studies; these
+tasks are clearly unique to medicine.”
+In the past few years SLR approaches have been applied in different research areas by
+the use of different databases [27,28]. However, many studies have reported the use of SLR
+approaches with a single scientific database. Samala et al. [28] discussed the advantages of
+using of multiple databases in SLR approaches. Industry 4.0 is an emerging research trend
+among practitioners and researchers. Antony et al. [29] stated that much less literature is
+accessible to practitioners which provide the information regarding new innovations and
+research opportunities in industries. SLR can help to find out the research trends and new
+opportunities in a particular research area.
+3.1. Research Questions
+A total of three research questions (RQ) were formulated in the present study as follows:
+RQ1: What is the role of different Industry 4.0 technologies in achieving manufacturing
+sustainability?
+RQ2: How can Industry 4.0 technologies contribute to sustainability in manufacturing?
+RQ3: What are main research gaps in Industry 4.0 technologies for manufacturing
+sustainability and what are the research issues that need to be addressed in future?
+3.2. Search Strategy
+The search of peer reviewed journal articles and conference articles was implemented
+in April 2021 for the articles related to manufacturing sustainability and Industry 4.0
+technologies. The search for articles was conducted by using the keywords related to the
+research area as follows: (TITLE-ABS-KEY (“Industry 4.0” OR “smart manufacturing”)
+AND TITLE-ABS-KEY (“manufacturing sustainability” OR “sustainable manufacturing”
+OR “Sustainability” AND “Manufacturing”)).
+The inclusion criteria for the study were as follows:
+1. Articles published in the English language;
+2. Articles published before May 2021;
+3. Articles should be from peer reviewed journals or conference proceedings;
+4. Articles focused in the area of Industry 4.0 technologies andmanufacturing sustainability;
+5. Articles must be in short or full version (not an editorial or abstract).
+Three major databases linked with the research area which include the article collection
+from Industry 4.0 and sustainability were selected for the primary search. These databases
+included Scopus, IEEE explore andWeb of Science. The search and selection process for
+articles is discussed in Figure 1.
+Appl. Sci. 2021, 11, 5725 5 of 27
+Figure 1. Literature review search and selection process.
+4. Results
+4.1. Year-Wise Publication Progress
+Industry 4.0 and sustainability are the emerging research areas in manufacturing. In
+the last few years studies related to sustainability issues in Industry 4.0 has made several
+research scopes. The number of publications in this area is increasing every year (See
+Figure 2). It can be observed that very few articles were published in this area from
+2015–2017. In last three years the number of publications has increased demonstrating the
+growing interest of researchers in Industry 4.0 and sustainability.
+Appl. Sci. 2021, 11, 5725 6 of 27
+Figure 2. Year-wise publication in Industry 4.0 and sustainability.
+4.2. Highly Cited Papers (Global Citations)
+The list of top cited articles in Industry 4.0 and manufacturing sustainability area is
+shown in the Table 1 with their contributions and total global citation. In the study three
+databases have been considered for the article collection so the global citation score is
+considered to find the top cited articles.
+Table 1. Most cited articles (global citations).
+Author Contribution Total Global Citations
+[3] Highlighted opportunities for SM in Industry 4.0 1305
+[10] Developed a sustainability framework for Industry 4.0 387
+[30] Empirical investigation on German manufacturing industries in five sectors 348
+[31] Empirical investigation on 46 German manufacturing industries 348
+[9] Identified critical success factors for SM practices in Industry 4.0 304
+[32] Challenges for Sustainable supply chain for manufacturing sustainability in Industry 4.0 278
+[33] Opportunities for IoT in sustainable supply chain for manufacturing sustainability 225
+4.3. Most Productive Journals
+In this study, journal classification was extracted with R studio using the bibliometrix
+package. In the classification of journals, it was found that the Journal of Cleaner Production
+had most publications related to Industry 4.0 and sustainability followed by Procedia CIRP,
+IFAC Papersonline and International Journal of Production Research. The top 10 journals with
+their publication count are shown in Figure 3.
+4.4. Top Subject Areas
+Figure 4 shows the distribution of 127 articles by their subject area. In an analysis
+it was found that some articles lie in more than one subject area. Most of the articles
+reported from the “Engineering” subject area include sub-areas like architecture design
+and experimental investigations. However, some articles from “Environmental science”
+are focused on sub-areas like life-cycle analysis and environmental related issues.
+Appl. Sci. 2021, 11, 5725 7 of 27
+Figure 3. Journal-wise distribution of articles.
+Figure 4. Articles distributed based on subject areas.
+4.5. Most Used Keywords
+The most used authors keywords in Industry 4.0 and manufacturing sustainability
+articles were extracted using the RStudio (See Figure 5). “Industry 4.0” was the mostly used
+keyword with 81 occurrences, followed by “Sustainable development (57) and “Sustainable
+Manufacturing” (40) occurrence. In most publications “Industry 4.0” was used as the main
+keyword while in some publications “smart manufacturing” was used as a main keyword.
+Figure 5. Main keywords used in articles related to Industry 4.0 and manufacturing sustainability.
+Appl. Sci. 2021, 11, 5725 8 of 27
+5. Discussion on Review Results
+RQ1: What is the role of different Industry 4.0 technologies in achieving manufacturing
+sustainability?
+5.1. Concepts and Theories Related to Manufacturing in Industry 4.0
+Industry 4.0 is the current research trend for data exchange and automation in manufacturing
+activities which connect the different physical entities in systems such as: sensors
+and actuators with the IoT so that they can interact and transmit the information [4,34]. In
+Industry 4.0 information can be exchanged between the machines as well as humans known
+as human–machine collaboration [35]. Production activities in Industry 4.0 are different
+from the traditional industry practices as real time production planning and control can be
+done in Industry 4.0 [36]. Industry 4.0 is driven by increased competitiveness from the use
+of sustainability in production, efficient manufacturing systems, horizontal and vertical
+integration of technologies [37].
+Shop-Floor Activities
+Shop-floor activities can be considered as the main elements to achieve sustainability
+in manufacturing processes. On the shop floor, the main entities (conveyors, pallets and
+machining cells), sensors and other digital technologies can communicate with each other
+for the data exchange [38]. This generated data can be analyzed with machine learning
+approaches or big data analytics and can be used for intelligent decision making [39]. The
+shop-floor activities in Industry 4.0 includes predictive maintenance, real time quality
+and safety monitoring and remote monitoring of activities which helps to create a smart
+shop floor [40]. Mittal et al. [41] stated that SMEs need a wide area network facility
+and automation facilities on the shop floor to enhance Industry 4.0 practices. Yang and
+Takakuwa [38] proposed a simulation based approach for flexible manufacturing system
+in Industry 4.0 for shop floor activities and found that the proposed model is helpful for
+decision making in manufacturing activities. Moica et al. [40] proposed a maturity model
+for an automotive industry to change the shop floor management into a smart shop floor
+using three main elements: (1) Envision (2) Enact and, (3) Enable. Schmidt et al. [42]
+proposed an Industry 4.0-based lean shop floor management system using deep learning
+(96.5% accuracy) and EEG (electroencephalogram) sensors. Very few studies were found
+directly related to shop floor management or smart shop floor activities in Industry 4.0.
+5.2. Main Technologies of Industry 4.0 for Achieving Sustainability
+5.2.1. Additive Manufacturing
+In the traditional manufacturing processes machining operations such as drilling,
+cutting and grinding operations are used to convert raw material into the final product
+which can be referred as “subtractive manufacturing” processes. In these processes a large
+amount of waste is generated in the form of chips and scraps which affects sustainability in
+terms of both economic and environmental sustainability. In Industry 4.0 industries focus
+on the adoption of additive manufacturing technologies which produce less waste and environmental
+impacts as compared to traditional manufacturing processes [27]. Also, these
+technologies help to complete the customized demands of customers through layer-by-layer
+manufacturing working on a CAD (computer aided design) model. Generally, additive
+manufacturing processes helps to enhance the adoption of Industry 4.0 practices [43].
+Korner et al.; Haleem and Javid [27,44] discussed the role of additive manufacturing
+processes in Industry 4.0. Godina et al. [43] investigated the impact assessment of additive
+manufacturing practices on sustainable business models in Industry 4.0. Ford and
+Despeisse [45] stated that additive manufacturing helps to improve resource efficiency,
+sustainability and enables material flow in a closed loop. Jamwal et al.; Yadav et al. [46,47]
+highlighted additive manufacturing practices as an enabler for Industry 4.0 practices to
+achieve sustainability. Mittal et al. [48] highlighted the importance of additive manufacturing
+technology in the Industry 4.0 roadmap development.
+Appl. Sci. 2021, 11, 5725 9 of 27
+5.2.2. Role of Big Data Analytics and Digital Twin
+Big data analytics is use of advanced computing technologies which can be used to
+find the trends, preferences and correlations on the larger data sets in industries for effective
+decision making [49]. In Industry 4.0 the role of big data analytics is very important which
+includes key areas such as smart factories in which data are captured from the sensors
+during the manufacturing or production activities [6]. This data can be analyzed with big
+data approaches and can be used for predictive maintenance operations in future. The
+main benefits of big data analytics in Industry 4.0 are optimization, real-time monitoring,
+production efficiency and production management automation which is currently shaping
+industries for fourth industrial revolution [50].
+Wang andWang [49] discussed the importance of big data analytics in Industry 4.0
+and cyber physical systems. It was found that big data analytics approaches help to reduce
+the breakdowns and unscheduled downtime by 25% in manufacturing industries.
+Branco et al.; Frank et al.; Papadopoulos et al. References [51–53] discussed the implications
+for big data implementation in Industry 4.0 practices and discussed how big data
+approaches help to automate production activities by reducing human inputs. Li et al. [54]
+presented the big data enabled smart factory framework for Industry 4.0 practices in which
+shop floor activities, cloud and smart products can communicate with each other. The
+results of the study indicated the improvement in efficiency and load balancing.
+Digital twins are the virtual representation which serves as a real-time digital counter
+part of physical entities in a system. Digital twins can be considered the result of continual
+improvements in product design and manufacturing activities in an industry. However,
+Kim, 2017, [6] stated digital twins are the software representation of any physical asset,
+process or system designed to optimize, predict and detect by the real-time data analytics.
+Some studies reported about 30% cost reductions, 20% planning time reductions, and 8%
+productivity improvements with the help of digital twins [5]. Refs. [2,55] discussed the role
+and opportunities for digital twins in manufacturing industries in the Industry 4.0 context.
+Ke et al., 2019 [56] proposed an interaction framework based on digital twin, augmented
+reality (AR) and virtual reality (VR) technologies for Industry 4.0 enabled manufacturing
+practices. Wang and Wang, 2019, [57] introduced the Industry 4.0 and digital twin enablers
+for waste electronic and electrical equipment recovery and discussed the role of computer
+graphics in the development of digital twins.
+5.2.3. Artificial Intelligence and Machine Learning
+Artificial intelligence (AI) and machine learning (ML) are considered as fundamental
+bases for Industry 4.0 which helps to make industries more productive and autonomous [58].
+AI is the combination of several technologies that allow machines and software to understand,
+sense, act and learn based on self-learning or augmented human activities [59].
+Research on AI in industry can be categorized into four major areas: (1) predictive quality
+and maintenance; (2) generative design; (3) supply chain activities; (4) human–robot
+collaboration [58]. Jamwal et al. [39] discussed the role of machine learning approaches
+in manufacturing sustainability. It was also found that ML approaches help to analyze
+the large amount of data generated from the sustainable manufacturing operations. The
+benefits of using ML are discussed in the three aspects of sustainability with some new
+research scopes for Industry 4.0 practices. The major benefits of using ML and AI approaches
+results in error reduction, cost reduction and revenue growth in manufacturing
+industries. In the initial efforts, Lee et al. [58] discussed the roadmap for AI-enabled
+manufacturing systems for Industry 4.0 practices. In the study, the current state of AI
+technologies and eco-systems for manufacturing applications is discussed in the Industry
+4.0 context. Yao et al. [60] discussed the evolution of smart manufacturing from intelligent
+manufacturing with AI technologies. The comparison between intelligent manufacturing
+and smart manufacturing is discussed in detail. Bajic et al.; Cioffi et al. [61,62] discussed
+the applications, opportunities and challenges for AI and ML techniques in Industry 4.0.
+Angelopoulos et al. [63] discussed the fault diagnosis with the help ML approaches in
+Appl. Sci. 2021, 11, 5725 10 of 27
+Industry 4.0 due to machine degradation. A detailed overview of ML approaches was
+provided for manufacturing activities to minimize the errors and improve human–machine
+interaction. Cinar et al. [64] discussed opportunities of ML for predictive maintenance
+in Industry 4.0 by providing a comprehensive review on ML and smart manufacturing.
+It was found that ML and AI applications are the emerging research areas in sustainable
+smart manufacturing. Candanedo et al. [65] proposed a predictive model for Industry 4.0
+practices. A case for HVAC(heating, ventilation and air conditioning) is presented in which
+data generated from a HVAC is utilized to predict and analyze that system temperature
+range using ML algorithms. However, few studies reported about the applications of AI
+and ML technologies in zero defect manufacturing. Psarommatis et al. 2020, [66] presented
+the state of the art on zero defect manufacturing and discussed the research opportunities
+for machine learning and AI technologies. Huang et al. 2018, [67] discussed about the
+application of machine learning and AI technologies in real-time quality prediction and
+monitoring of defects in micro-semiconductor manufacturing. Lindström et al., 2020, [68]
+proposed a zero defect manufacturing model for industries with an Industry 4.0 perspective.
+It was found that the proposed model helps to improve the sustainability, profitability,
+efficiency and manufacturing competitiveness. Eger et al., 2018, [69] discussed the zero defect
+manufacturing strategies in the Industry 4.0 context for scrap reduction in multi-stage
+production system. Psarommatis et al., 2020, [70] discussed the opportunities for AI-based
+algorithms for flexible job shop re-scheduling in zero-defect manufacturing. The above
+literature reveals that AI and machine learning based technologies delivers the skill set and
+zero defect manufacturing opportunities for Industry 4.0 which will help to improve the
+sustainability and efficiency of manufacturing industries.
+5.2.4. Internet of Things (IoT)
+Industries are adopting IoT technologies to improve production quality and reduce
+downtime by digitalization in manufacturing [71]. In developed nations, manufacturing
+organizations are already automated up to a good extent. Industries have already
+automation and digitalization on shop floor which is basic requirement for Industry 4.0
+practices [46,47]. IoT is one of key enabling technologies for Industry 4.0 which contributes
+towards manufacturing excellence and digital transformation of industries. The major issues
+in industries are IT-OT (internet technology and operational technology) integration in
+the manufacturing activities which resulted in lack of quality, plant visibility and inefficient
+inventory management [72]. IoT technologies helps to bridge gap between the OT and IT
+systems by connected the control systems, sensors, PLCs (programmable logic controller)
+and data transfer to cloud and ERP (enterprise resource planning) [73]. Wan et al. [74] proposed
+a framework for IoT based manufacturing focused on smart factory. In the study role
+of dynamic resource management for complex resource allocation problems is presented.
+Frank et al. [1] discussed the how IoT technologies in industry help to reduce downtime,
+improve quality and improve predictive and preventive analysis. Gerrikagoitia et al. [75]
+found IoT technologies as the main driver for Industry 4.0 practices. In the review different
+approaches with the different manufacturing scenario i.e., dynamic market changes for
+digital manufacturing is discussed. Kim; Xu et al. [6,76] reported about the state of art
+of IoT technologies in Industry 4.0. It is noted that wireless sensors networks and RFID
+(radio frequency identification) are the most important devices which helps to enable a IoT
+based manufacturing. Beier et al. [77] stated that Industry 4.0 uses the cognitive computing
+approaches with IoT to automate the manufacturing activities. Saglain et al. [71] proposed
+a IoT-based framework for smart manufacturing which can manage process control, online
+monitoring and large industry data sets. In the proposed framework five main layers were
+considered to manage a large amount of data generated from the regular manufacturing
+activities in industries. Thramboulidis et al. [22] conducted two case studies to validate an
+IoT-based manufacturing framework in which cyber-physical microservices considered as
+key construct. Singh and Bhanot [78] analyzed the 10 critical challenges related to IoT-based
+Appl. Sci. 2021, 11, 5725 11 of 27
+manufacturing in industries with a DEMATEL-ISM approach and found cyber security as
+main challenge.
+5.2.5. Cloud Computing and Manufacturing
+Cloud computing in Industry 4.0 can be considered a key enabler that offers advantages
+like computational power required to apply ML, AI approaches and other smart
+technologies in Industry 4.0 [79]. Few studies reported about the uncertainties regarding
+the suitability of cloud computing in manufacturing organizations [6,80,81]. Cloud computing
+and Industry 4.0 enables the services, manufacturing networking and data over the
+internet in manufacturing activities [82]. Advanced cloud technologies are widely used for
+data sharing across the organizational boundaries which has resulted in improved flexibility
+and agility of systems [83]. Xu [79] stated that cloud service providers provide three
+kind of cloud services for manufacturing industries: (1) software as service i.e., ready to
+use services; (2) infrastructure as a service i.e., virtual CPUs (central processing unit) or networks;
+(3) platform as a service i.e., virtual machines and operating systems. Tao et al. [84]
+proposed a service oriented and computing based cloud manufacturing model for industries
+to improve resource utilization and reduce energy consumption. Li et al. [81]
+proposed a cloud manufacturing model which consists of IoT, AI technologies and services
+to achieve a life cycle in smart manufacturing. In the study, four applications of the model
+for large enterprises and small and medium enterprises are discussed. Adamson et al.;
+Liu et al.;Wu et al. [82,85,86] discussed the concept of cloud-based manufacturing for industries
+and highlighted research issues for the fourth industrial revolution. In the studies,
+various definitions related to cloud manufacturing is discussed. These studies provides
+future research directions for both academia and practitioners. Coronado et al. [87] stated
+that both mobile and cloud technologies are important for smart manufacturing. In the
+study, an android-based manufacturing execution system (MES) is proposed for small
+manufacturing facilities. The information from MES is used to create factory digital twins.
+Varela et al. [88] presented a systematic review of cloud-based collaborative manufacturing
+and highlighted process and scheduling plan generation as the main challenge for industries.
+Liu et al. [83] highlighted scheduling issues for cloud-based manufacturing and found
+workshop and supply chain scheduling as the emerging areas in cloud manufacturing.
+Lu and Xu [89] proposed a generic architecture for cloud-based manufacturing based on
+big data analytics and cyber-physical systems. It was found that the proposed architecture
+enables the on-demand manufacturing services via the network. Mubarok et al. [90]
+proposed a hierarchical reliability-based assessment model for cloud manufacturing. In
+the proposed model resources at three level i.e., system, machine and component levels
+are evaluated. Caggiano et al. [80] proposed a model for cloud manufacturing to monitor
+smart diagnosis in manufacturing. It was found that, based on cloud diagnosis corrective
+action such as tool replacement, parameter changes and process halting can be undertaken
+by a local server. Fisher et al. [91] stated that cloud-based manufacturing is an advanced
+service-oriented business model in which resources and manufacturing capabilities can
+be shared on a cloud platform. Cloud manufacturing can provide sustainable and robust
+route for manufacturing industries to achieve sustainability.
+5.2.6. Augmented and Virtual Reality
+Augmented reality is the set of technologies in which the real world environment can
+be viewed in an enhanced or augmented way with the help of computer graphics [92]. The
+visual aspects of physical entities in the system can be enhanced by use of various devices.
+Augmented reality has a wide range of applications in Industry 4.0 but the manufacturing
+domain is more attractive area for researchers [93]. The various stages of the product life
+cycle need real time information i.e., about design to prototyping, maintenance operations
+and assembly operations. These stages have many challenges which can be addressed by
+augmented reality through simulation which results in reduced downtime in industries
+and streamlines of operations [94]. Similarly, virtual reality technologies have opened the
+Appl. Sci. 2021, 11, 5725 12 of 27
+various avenues in industries to develop innovative solution as manufacturing units by
+use of simulation tools, smart machines, data analytics and high connectivity between
+workstations. These changes in manufacturing units have refined the production capabilities
+of industries and meet the dynamic demands of markets [94–96]. Lee [97] proposed a
+real-time material flow simulator and layout for manufacturing problems. In the proposed
+framework integrated AR and manufacturing techniques are used for manufacturing issues
+in large enterprises. The results of the study indicated the more accurate results through the
+simulation and AR approaches for manufacturing modeling. Nabati et al. [95] presented
+an overview on VR applications for energy-efficient manufacturing and found that VR technologies
+helps to minimize the energy consumption in Industry 4.0 during manufacturing.
+Rumsey and Dantec [98] conducted a study in global aviation manufacturing headquarters
+in the United States through surveys and interviews and provided an initial insight on
+organizational impact of AR and VR technologies. Shiba and Imai [96] developed a lesson
+support system for manufacturing applications using AR technologies. The proposed system
+is helpful to manage the digital data and reduce human efforts in training. Bottani and
+Vignali [92] presented a review on AR technology in manufacturing industries in which
+major application areas of manufacturing such as assembly and maintenance operations
+were explored. Lai et al. [94] proposed integrated Faster R-CNN (region based convolutional
+network) and AR instructional system for intelligent manufacturing. The results of
+study reported the reduction in errors and assembly time as compared to conventional
+method. Mittal et al. [99] found AR and VR technologies as the main enablers for smart
+manufacturing practices. Malik et al. [100] explored the advancements and development in
+VR technology for human-centered production systems. In the study, a simulation-based
+human centered VR framework is proposed for manufacturing to reduce cycle time, robot
+control, layout optimization and process plan development. Mandic [101] proposed a
+model-based manufacturing system for Industry 4.0 using AR and rapid technologies for
+design and fabrication of a sheet metal process.
+5.2.7. Blockchain Technology
+Blockchain technology in Industry 4.0 offers new tools to address sustainability issues,
+security, efficiency and resiliency of systems as well as transparent and decentralized
+transaction systems [102,103]. The traceability and transparency characteristics offered
+by blockchain enhance manufacturing network sustainability. Leng et al. [102] discussed
+12 metrics for blockchain adoption in the manufacturing sector. In the study, a list of
+social challenges and barriers for blockchain empowered manufacturing is discussed.
+Li et al. [103] developed a distributed network for cloud-based manufacturing in which
+blockchain technology is used as standard. The results of the study indicated that the
+proposed approach has more advantages over the scalability and security. Lee et al. [21]
+discussed the blockchain technology potentials in cyber physical production systems
+and proposed a three-level architecture for blockchain enabled manufacturing practices.
+Westerkamp et al. [104] proposed a method for manufacturing goods and components
+traceability. In the proposed model products are represented as digital tokens created on
+blockchain. The results of study indicated that blockchain technology in manufacturing
+operations helps in process traceability. Lohmer and Lasch [105] conducted an empirical
+investigation on manufacturing and blockchain with the survey-based method in which
+legal uncertainties, unclear governance and a lack of standardization are found as major
+barriers. Ko et al. [106] reviewed the current blockchain applications in the manufacturing
+sector and examined how blockchain technology helps in cost saving and real-time
+transparency in manufacturing. A conceptual model is proposed to ensure sustainability
+in manufacturing practices. Yu et al. [107] proposed a blockchain-based architecture to
+enhance decentralization and transparency in manufacturing activities. The proposed
+model is solved with the particle swarm optimization approach and simulations were
+performed. Aghamohammadzadeh et al. [108] introduced a novel blockchain based manufacturing
+architecture. The proposed architecture can provide service collaboration for
+Appl. Sci. 2021, 11, 5725 13 of 27
+service providers and service optimality. Zhang et al. [109] investigated the blockchain
+based trust mechanism and security and provides a particular application for quality assurance
+in smart manufacturing. A survey is conducted in the dairy industry and found that
+blockchain technology improves the transparency and security in the smart manufacturing.
+Yu et al. [110] proposed a blockchain-shared manufacturing framework to support cyber
+physical system. It was found that a smart contract network and proof of participation
+assure the sustainability of resource operation blockchain and stability. Tao et al. [111]
+proposed a digital twin and blockchain-based framework for smart manufacturing. In the
+study digital twin and blockchain service management related challenges are discussed.
+Barenji et al. [112] used two types of blockchain network: (1) public (service provide level);
+(2) private (shop level), which are connected with the machine level to receive and gather
+the data. Ouyang et al. [113] proposed a blockchain-based framework for collaborative
+manufacturing to design and optimize the manufacturing.
+5.2.8. Flexible and Reconfigurable Manufacturing Systems
+In the past, manufacturing industries were driven by mass production aiming at
+same type of high-quality products at high volume. In today’s scenario, increasing customer
+demands and human lifestyles have changed market demands which are driven
+by mass customization with a higher volume of production [4,77]. Mass customization
+in industries requires machine intelligence as well as high level of automation which has
+increased manufacturing costs and slowed down production processes [38]. Reconfigurable
+manufacturing systems (RMS) and flexible manufacturing systems (FMS) have
+introduced in industries to solve these problems which are now combing with Industry
+4.0 technologies [114]. Khezri et al. [115] addressed sustainability issues in reconfigurable
+manufacturing systems in process planning and stated that RMS systems as an enabler
+for Industry 4.0 practices to reduce the reconfigurability effort during dynamic changes in
+the market. Touzout and Benyoucef; Alcácer and Machado [114,116] stated that RMS and
+FMS as the main enablers for Industry 4.0 to complete mass customization demands from
+customers. Vaidya et al. [117] discussed the opportunities for RMS and FMS in Industry 4.0.
+It was noted that RMS systems helps to reduce the reconfigurable effort in manufacturing
+systems which can easily adapt the dynamic changes in market. Long et al. [118] proposed
+a model for a flexible production system in Industry 4.0 with three machines to reduce the
+machine failures. Suzic et al.; Wang et al. [119,120] discussed the FMS as the guidelines for
+the mass customization production in Industry 4.0. Khalil et al. [121] proposed a modelbased
+system engineering method for FMS in Industry 4.0. In the study, decision support
+systems are proposed based on three solutions (RMS, scheduling optimization and FMS)
+with real-time data from industries. Florescu and Barabas [122] proposed a material flow
+design methodology for FMS. Different manufacturing scenarios have evaluated in the
+model using the simulation and virtual modelling approaches. It was found that this model
+is helpful in the development of intelligent manufacturing systems where control systems
+can use the simulations to regulate the process parameters for predictive maintenance.
+Luscinski and Ivanov [123] developed a simulation model for FMS using ontology on flexibility.
+A simulation model was developed using FlexSim modeling software and industry
+examples were used to check the applicability of the model. Sang et al. [124] proposed a
+FIWARE-based framework for predictive maintenance in FMS. The effectiveness of model
+is tested with the industry case study. The results indicated the reduction in cost and
+unnecessary downtimes.
+5.2.9. Robotics
+Industrial robots are more digitally connected and use more sensors which makes
+them less susceptible in the Industry 4.0 environment. Robotics-enabled manufacturing
+in Industry 4.0 helps to reduce downtime and maximize efficiency [125]. Unscheduled
+downtime is one the major issues at the present time which results in inefficiency in
+industries. Robotic technology helps to minimize the reconfigurable effort which results
+Appl. Sci. 2021, 11, 5725 14 of 27
+in minimizing errors as well as improvement quality and production [126]. Goel and
+Gupta, and Dhanabalan and Sathish [125,127] discussed the roadmaps for robotics in
+Industry 4.0. In these studies it is discussed how industries can transform themselves
+to Industry 4.0 with robotics and AI technologies. Braganca et al. [128] presented an
+overview on collaborative robotics to support workers for manufacturing in Industry
+4.0. The main advantages of collaborative robotics such as human–robot collaboration,
+cognitive tasks and physical tasks was discussed. Xu et al. [76] stated that modern robotic
+technology in Industry 4.0 offers flexibility and autonomy which results in cost advantages
+and human safety. Robotic technology in Industry 4.0 has a wide range of capabilities
+that can also perform most of manufacturing operations in intelligent manufacturing
+environment. Karabegovi´c et al. [129] implemented Industry 4.0 and robotic technologies in
+manufacturing processes. The benefits of implementation in terms of self-optimization, selfdiagnosis,
+self-configuration, self-automation and intelligent decision making is discussed.
+Fragapane et al. [130] compared the production activities in traditional manufacturing
+and Industry 4.0 by proposing an analytical model that uses autonomous mobile robots
+(AMR). The sensitivity analysis results of the study revealed that number of shifts and cost
+of AMR are the key factors to improve productivity and flexibility in Industry 4.0 practices.
+Karabegovi´c [131] discussed the role of service and industrial robots in the development
+of Industry 4.0 and smart manufacturing. It was noted that robotics technology ensures
+the safety in the shop floor and with robotic technology manufacturing has become more
+flexible. Wan et al. [132] introduced a context-aware robotic model for material handling in
+industries. In the study, challenges, advantages and system architecture are discussed in
+detail. A case study is performed to minimize the energy consumption and cost reduction
+in material-handling problems. Simulation results of study shows the reduction in cost
+and energy consumption in material handling operations.
+5.2.10. Cyber Security
+Smart factories in Industry 4.0 can be subjected to vulnerability exploitation, device
+hacking, malware attacks and other common attacks which are also faced the other network
+[133]. The cyber-attacks in Industry 4.0 can disrupt manufacturing activities and will
+be difficult for manufacturers to detect and defend from cyber attacks [134]. Manufacturing
+in Industry 4.0 is based on cyber-physical production systems and IoT based network which
+are connected to many sensors and communication devices in the system [10]. At present,
+cyber security threats are major issues in Industry 4.0. Once malicious software or any
+virus attack enter a cyber physical production system they can communicate with different
+machines and layers through communication networks which can affect the manufacturing
+activities [135]. These viruses or malicious software can destroy the manufacturer data
+or change the manufacturing process which result in system breakdown or downtime.
+Industrial data is highly sensitive as it requires information related to products and other
+copyright details which can be affected by cyber attacks [136]. Culot et al., and Ervural
+and Ervural [133,134] addressed the challenges related to cyber security for cyber physical
+based production systems in Industry 4.0 in which modification in firmware and malware
+intrusions are found to be major issues. Lezzi et al. [137] presented an overview of current
+issues related to cybersecurity for manufacturing in Industry 4.0. Ghobakhloo [138]
+discussed the importance of cyber security-related issues for Industry 4.0 roadmap development.
+It is noted that cyber-attacks can disrupt the manufacturing activities. So, the
+industries need to work more on cyber security related issues. Wegner et al. [139] presented
+a new approach for cybersecurity issues in Industry 4.0 which limits the information flow
+to authorized and internal floor devices in a system. Rubio et al. [135] analyzed the cyber
+security-related threats in Industry 4.0 context.
+RQ2: How can Industry 4.0 technologies contribute to sustainability in manufacturing?
+Appl. Sci. 2021, 11, 5725 15 of 27
+6. Manufacturing Sustainability in Industry 4.0
+Manufacturing sustainability is more about development and growth of industries
+in a socially equitable and eco-friendly manner rather than minimizing carbon emission
+and pollution [140]. Sustainability can be considered as the core of business strategy
+which is highlighted in the UN Sustainability 2030 agenda which includes smart manufacturing,
+energy efficient buildings and low impact industrialization [141]. Stock and
+Seliger [3] discussed the role of sustainable manufacturing practices in Industry 4.0 and
+found that Industry 4.0 technologies will open the opportunities for sustainability in
+business. Jabbour et al. [9] found that Industry 4.0 practices will unlock opportunities for
+green manufacturing practices. A future research agenda and framework for sustainability
+practices in Industry 4.0 is proposed. Yadav et al. [47] find the critical enablers for the
+Industry 4.0 technologies to achieve sustainability in manufacturing practices. In the
+study it was found that adoption of renewable energy sources and adoption of sustainable
+policies in manufacturing practices help to achieve sustainability in Industry 4.0 practices.
+Jamwal et al. [46] proposed a sustainability framework for Industry 4.0 practices. It was
+noted that multi-national enterprises are now investing more in emerging economies for
+Industry 4.0 practices because of cheap labour cost. Developing nations have more opportunities
+for the sustainability in Industry 4.0 as the economy is largely dependent on
+small and medium enterprises (SMEs). Mittal et al. [48] reviewed the maturity models
+for Industry 4.0 and found that opportunities for MNCs (multi-national companies) and
+SMEs are different. There is need to different roadmap and maturity model for SMEs to
+unlock the sustainability benefits of Industry 4.0 practices. Ghobakhloo [142] discussed the
+sustainability opportunities in Industry 4.0. In the study, critical sustainability functions
+for Industry 4.0 were analyzed with the ISM (interpretive structural modeling) approach
+and found that business model innovation and production efficiency are the main critical
+functions for sustainability.
+6.1. Economic Sustainability
+Only few studies are reported about economic sustainability in Industry 4.0.
+(Ghobakhloo) [142] found business model innovation and production efficiency are the
+main function for industries to maintain economic sustainability in Industry 4.0. Braccini
+and Margherita [143] found that improvement in economic sustainability affects the environmental
+sustainability by improving resource efficiency and social sustainability by
+higher taxes. It was noted that manufacturing organizations are using sensors in their
+assembly lines for warehouse and inventory management which helps to improve economic
+sustainability. Jamwal et al. [46] stated that in developing economies manufacturing
+sustainability in Industry 4.0 depends on economic and political factors. A case study was
+undertaken in the electronics manufacturing industry and found that social and economic
+factors are the effect enablers while information technology, supply chain and environmental
+related enablers are cause enablers for Industry 4.0 sustainability. Brozzi et al. [144]
+concluded in a survey study that industries are now focusing more on economic sustainability
+as compared to social and environmental sustainability. Müller and Voigt [145]
+concluded that Industry 4.0 offers innovative business models which can help to achieve
+economic sustainability as well as enhance competitiveness. Luthra et al. [146] stated
+that managers should understand the need of Industry 4.0 adoption for the economic,
+ecological and environmental benefits in emerging economies. Varela et al. [37] found that
+the Industry 4.0 revolution will be more favorable for economic sustainability by reducing
+manpower, energy consumption, lead time and improving productivity in manufacturing
+processes. Stock and Seliger, and Jabbour et al. [3,9] found that Industry 4.0 practices
+helps to reduce operational costs, improve circular economy, market share of products and
+create new business model which enhance economic sustainability in industries. The main
+influence of Industry 4.0 on economic sustainability is presented in Table 2.
+Appl. Sci. 2021, 11, 5725 16 of 27
+Table 2. Influence of Industry 4.0 technologies on economic sustainability.
+Sustainability
+Dimension in I4.0 Main Influence from I4.0 References
+Economic
+Sustainable value creation, efficiency and profits [3,8,10,11,37]
+Reduction in operational costs [4,8]
+Impact on market share, supply chain, security [9,46,47,146]
+New business model opportunities, turnover [3,4,8,48]
+6.2. Social Sustainability
+Economic sustainability in Industry 4.0 can be considered another paradox which
+is generated by Industry 4.0 technologies. The basic requirement for the Industry 4.0 is
+digitalization and automation in manufacturing activities [48]. The more automation in
+industry will result in less manual labour. Introducing a new machine in the system will
+affect certain jobs previously done by employees. These jobs include shop floor activities
+and low-skilled jobs in industries which results in increasing unemployment [52]. It is true
+that innovations in Industry 4.0 will generate new kinds of services and products in various
+sectors. Employees needs to have flexible and keen learner to adapt the changes done by
+fourth industrial revolution [43]. In the case of developed nations, the industries are already
+working on their employee training from the long time which now has a skilled set of
+labour which can adapt the Industry 4.0 environment. But, developing nations still require
+a highly skilled set of labour which can perform tasks and adapt the changes arising from
+Industry 4.0 technologies [46,47,146]. The new training models in industries should have a
+focus on the development of the interdisciplinary skills that can increase the capabilities
+of employees and make them ready to deal with the challenges in Industry 4.0. The new
+technologies in Industry 4.0 generate a large amount of data which can be useful for the
+future decision making and other operations such as predictive maintenance [53]. Workers
+need to be skilled for these challenges so that they can manage this data and perform the
+changes required in the organization. Most of the skillset required for Industry 4.0 is not
+available in SMEs because there is no dedicated team in SMEs for Industry 4.0 activities.
+These industries need to improve their skills through continuous innovation and training
+by introducing new approaches in industries such as: (1) development in technical skills;
+(2) virtual training programs; (3) user’s view-centered processes; (4) development in digital
+and soft skills; (5) manufacturing systems; on which industries have been working for a
+long time. The manufacturing systems in Industry 4.0 are highly flexible which need more
+technical skills to deal with dynamic changes in market. To complete this requirement,
+industries are collaborating with universities and research institutes to develop improved
+education and training plans for their workers. Some studies found Education 4.0 will
+be helpful to generate skilled labour in future for Industry 4.0. Our findings indicated
+that there is limited research on theoretical and empirical investigations on the social
+sustainability aspect of Industry 4.0. Therefore, we suggest that future studies need to
+address the solution required to enhance the abilities and skills of workers with digital
+manufacturing support. The main influence of Industry 4.0 on social sustainability is
+presented in Table 3.
+Table 3. Influence of Industry 4.0 technologies on social sustainability.
+Sustainability
+Dimension in I4.0 Main Influence from I4.0 References
+Social
+Employment [48]
+Better collaboration among stakeholders [4,8]
+Reduction in accidents [37,128]
+Improved living conditions for societies [9,10,48]
+Improved working conditions [3,9]
+Appl. Sci. 2021, 11, 5725 17 of 27
+6.3. Environmental Sustainability
+Due to strict government regulations and customer awareness, industries are now
+focusing more on improving standards of living and environment-related issues. Environmental
+sustainability can be considered one of the major pillars which contribute to the
+sustainability in business practices [14]. The development in innovations and technology
+are growing at a faster rate to improve the quality of life [8,10]. These developments are
+not very sustainable because of a lack of proper knowledge about Industry 4.0 technologies
+and their potentials [4]. Most of the developments in the environmental sustainability are
+focused on the resource efficiency and climate issues. Industry 4.0 technologies consist
+of cyber physical systems, intelligent sensors and smart logistics which have the potential
+to reduce the energy, water and resource consumption in industry [39]. Additive
+manufacturing technologies work on a pull strategy which has the potential to reduce
+the inventory levels, lead times as well as complete the mass customized demands [44].
+Industry 4.0 technologies require higher energy consumption as these technologies are
+based on sensors, data centers and smart equipment which have a negative impact on
+the environment during manufacturing operations [147]. Hazardous waste disposal and
+greenhouse gases emissions are the major concern in the environmental sustainability [115].
+During manufacturing, activities many scraps and other waste is generated which affect
+both environmental and economic sustainability. There is a requirement for sustainable
+processing and scheduling plans which can minimize the emissions and waste at the
+machine level. However, few studies have addressed these research issues but they have
+limitations and subjective to some constraints [47,148]. Hazardous chemical disposal may
+lead to accidents which is the major concern in developing nations due to lack of standardized
+technologies for Industry 4.0. Therefore, there is a need to develop new tools and
+methods for detection and control of these type of issues in industries. The main influence
+of Industry 4.0 on environmental sustainability is presented in Table 4.
+Table 4. Influence of Industry 4.0 technologies on environmental sustainability.
+Sustainability
+Dimension in I4.0 Main Influence from I4.0 References
+Environmental
+Industrial waste reduction [3,47,149]
+Promote circular economy [9,11]
+Use and production of renewable sources [46,47,102]
+Reduction in use of non-renewable sources and energy consumption [4,8,9]
+Reduction in global warming, resource consumption, energy consumption [8,147]
+RQ3: What are main research gaps in Industry 4.0 technologies for manufacturing
+sustainability and what are the research issues that need to be addressed in future?
+7. Future Research Directions
+This section discusses the future research directions to achieve manufacturing sustainability
+from Industry 4.0 technologies. From the literature review, six major research areas
+are found which can be explored in future studies, discussed with research gaps below.
+7.1. Lean Production Systems for Environment Management in Industry 4.0
+Studies published on lean manufacturing state the benefits of lean production systems
+in mass production [37,42]. These studies explain how lean manufacturing can help to
+satisfy customer requirements. Ghobakhloo and Fathi [150] discuss the practical implications
+of lean-enabled Industry 4.0 practices and stated some research scopes related to lean
+enabled practices for small- and large-scale industries. Varela et al. [37] investigate the relationship
+between lean practices and Industry 4.0 technologies and found that sustainability
+pillars are strongly related to Industry 4.0. The studies on lean Industry 4.0 integration
+are still limited. It would be more interesting to know the impact of lean manufacturing
+practices from Industry 4.0 technologies. In future studies, an integrated lean-industry
+Appl. Sci. 2021, 11, 5725 18 of 27
+4.0 framework can be proposed to enhance performance and minimize the waste from
+manufacturing activities.
+7.2. Establish Relationship between Sustainability and Industry 4.0 Factors
+Most of the studies on Industry 4.0 are from developed nations which shows that
+they are more focused on Industry 4.0. However, studies and adoption of Industry 4.0
+is less in the developing nations due to technological advancements and resources required
+for Industry 4.0 implementation. Studies conducted by Yadav et al.; Jamwal et al.;
+Luthra et al. [46,47,146] discussed the research opportunities for Industry 4.0 technologies
+to achieve sustainability by identifying influencing factors. Very few studies discuss the
+relationship between sustainability and Industry 4.0 factors for business practices. Furthermore,
+there is need to incorporate the factors related to political and risk-related factors.
+The effect of these factors on sustainability is discussed by [151]. There is need to include
+these factors with Industry 4.0 theories for the successful implementation of sustainability
+practices in Industry 4.0 manufacturing. This will be helpful to provide a guideline
+for emerging industry sectors. In future studies, hybrid multi-criteria decision-making
+approaches, decision making in uncertainty and statistical tools can be used to find the
+influence and relationship between the factors related to Industry 4.0 and sustainability.
+7.3. Impact of Sustainable Supply Chain in Industry 4.0
+Industry 4.0 technologies has created disruption in supply chains which forced the
+manufacturing industries to rethink their supply chain design [146]. In the past few
+years several new technologies have emerged which have altered traditional supply chain
+practices. Now the industries are transforming their business models and adapting digital
+supply chain models. Digitalization in the supply chain is aided by disruptive new
+technologies such as big data analytics, AI, machine learning, automation, blockchain
+and IoT [152]. Studies reported that digitalization in supply chains helps to lower the
+operational costs by 30%, inventory requirements by 70% and lost sale opportunities by
+60% [153–155]. In the digital transition of supply chain practices, long-term investments
+and significant efforts are required. This will help to achieve operation effectiveness and
+cost reduction in supply chain practices.
+In future studies, the impact of sustainable supply chain on smart manufacturing,
+remanufacturing, reverse logistics, and product cycling can be explored. However, in
+blockchain-enabled supply chains, few studies have addressed environmental issues [152].
+Table 5 presents the research issues and challenges for sustainable supply chains for
+manufacturing sustainability.
+Table 5. Research issues in sustainable supply chain practices in Industry 4.0 for manufacturing sustainability.
+Category Research Issue References
+Supply chain strategies for
+Industry 4.0
+How digital transformation is forcing manufacturing industries to rethink their
+business models?
+What is the relationship between Industry 4.0 technologies and supply
+chain strategies?
+What is the effect of supply chain digitalization on network value?
+[23,24,50]
+Supply chain orientation
+in Industry 4.0
+Role and benefits of sustainable supply chain management (SSCM) in Industry 4.0?
+What are the benefits and drawbacks of technological infrastructure manufacturing
+industries required for SSCM practices?
+[4,8,23,50]
+Customer value creation
+What are the effects of data driven SSCM practices in Industry 4.0?
+How Industry 4.0 technologies will help to implement SSCM in
+manufacturing industries?
+[3,50,154]
+Human centric issues
+in SSCM
+What is role of human in digitalized supply chain network and practices?
+How machine learning and AI based approaches can help to achieve sustainability
+in SCM (supply chain management)?
+[9,153,155]
+Appl. Sci. 2021, 11, 5725 19 of 27
+7.4. Big Data Analytics and Sustainability
+The use of big data analytics in manufacturing context offer several opportunities for
+manufacturing industries in terms of production monitoring and real-time optimization
+which contributes to sustainability.
+Both IoT and big data analytics are the significant contributor in the development of
+Industry 4.0. Big data analytics approaches are based on 3V (volume, variety and velocity)
+which can handle large amounts of data and can be classified according to different lifecycle
+stages [156]. Ren et al. [157] argued that big data analytics help to deal with the future
+challenges related to smart manufacturing. In the last few years, advancements in big
+data approaches have gained the attention of practitioners. Now, these approaches are
+used by many industries to improve their services and maintenance operations. Wang and
+Wang [49] found that manufacturing challenges in Industry 4.0 can be efficiently handled
+by big data analytics due to its ability to handle large amount of data.
+Future studies can be conducted to develop new big data analytics approaches to
+achieve sustainability in manufacturing. There is a need to evaluate and analyze high
+amount of data generated from the various stages of manufacturing processes. In future
+studies, simulation and optimization techniques can be integrated data analytics which will
+help to provide a better understanding of models for shop floor management. Studies related
+to the development of IT-enabled big data analytics are also limited. In future studies,
+the role of these architectures to achieve sustainability in manufacturing can be investigated.
+Few studies have discussed big data analytics (BDA) opportunities for sustainable manufacturing
+in which condition-based predictive maintenance issues discussed [158]. In this
+area, future research studies can be conducted by considering the multicomponent-based
+systems which is a limitation in most of the studies. Table 6 presents the research issues
+and challenges for big data-enabled practices for manufacturing sustainability.
+Table 6. Research issues in big data analytics in Industry 4.0 for manufacturing sustainability.
+Future Research Challenge References
+Architecture development for sustainable smart manufacturing (SSM) practices [6,89]
+Data acquisition issues for SSM [24,50]
+Data aggregation and integration issues [49,54]
+Algorithms and model development for BDA enabled SSM practices [49,54,159]
+Data quality management issues for SSM [160,161]
+Role of cloud-based technologies for SSM [89]
+Issues related to energy consumption and optimization [162]
+7.5. Impact of Machine Learning and Artificial Intelligence (AI) Approaches on Sustainability
+The emergence of machine learning and AI approaches is shaping industrial sectors
+and is expected to affect global productivity and environmental outcomes. AI and machine
+learning have both a negative and positive impact on sustainable development [141].
+Jamwal et al. [39] found that AI and machine learning approaches are helping industries to
+achieve sustainability in manufacturing as well as Industry 4.0 implementation. Machine
+learning approaches can be beneficial for manufacturing systems optimization, recovery
+plans, and condition monitoring. Table 7 presents the research challenges for AI and
+machine learning-enabled practices for manufacturing sustainability.
+Table 7. Research issues in artificial intelligence (AI) and machine learning-enabled practices for manufacturing sustainability.
+Future Research Challenge References
+Development of integrated SM layouts by machine learning approaches [148]
+What is impact of AI and machine learning approaches in Industry 4.0 from sustainability perspective [39]
+Prediction modelling and condition-based monitoring issues [35,158]
+AI and Machine learning based intelligent decision making [163,164]
+Quality prediction issues [165,166]
+Appl. Sci. 2021, 11, 5725 20 of 27
+7.6. Integrated Process Planning and Scheduling for Sustainability on the Shop Floor
+Industry 4.0 on the shop floor level uses advanced technologies and complete automation
+in which data can be transferred with the internet network. Industry 4.0 consists
+of the key enabling technologies such as cyber physical systems which can work autonomously
+and have self-optimization performance across the network. Optimization of
+sub-components in manufacturing does not necessarily optimize the overall manufacturing
+process [40]. There is a need for global optimization to achieve synergy in the entire
+manufacturing system. Decisions in industries about what to produce, when and where to
+produce it, fall in the domain of planning and scheduling [38]. Without an ability to make
+decisions in manufacturing industries from the global point of view it is not possible to
+experience the full benefits of Industry 4.0 practices. In the present time, global supply
+chain practices require a new level of planning and scheduling sophistication which can
+be termed “Planning and Scheduling 4.0”. Industry 4.0 technologies are transforming
+manufacturing industries and driving the need for integrated planning and scheduling
+systems which can support greater transparency, automation and integration. Opessa MLS
+V7+ can be considered as the solution for the planning and scheduling 4.0.
+Future research work can be conducted on how process planning and scheduling in
+Industry 4.0 can contribute to sustainability (economic and environmental dimensions)
+and resource efficiency. In the context of manufacturing sustainability, there are two major
+elements: (1) inputs elements (raw materials, inventories and man-machine); (2) output
+elements (pollution, scrap, waste and hazards). How can these elements be considered as
+decision variables when computing the scheduling plans in reactive or predictive manner?
+Scheduling in Industry 4.0 requires dynamic, efficient and decentralized decision methods.
+In future studies, intelligent algorithms can be introduced to investigate the real-time
+autonomous behavior of manufacturing systems. Innovative approaches and concepts
+such as product service systems, intelligent products and cyber physical systems can be
+used to develop efficient and effective sustainable scheduling plans.
+7.7. Non-Destructive Quality Control for Manufacturing Sustainability
+Industry 4.0 technologies are enhancing the non-destructive methods for quality control
+in manufacturing which have a great impact on sustainability, safety and product quality.
+Non-destructive testing in Industry 4.0 comprises all aspects including the inspection of raw
+material to product delivery. Despite the development in non-destructive quality control in the
+last few years, there are stillmany limitations related to skilled labour, complex user interfaces,
+slowdata sharing processes and inspection speeds, and complicated data interpretationwhich
+can be addressed in future studies. Some major research issues in non-destructive quality
+control for manufacturing sustainability are as follows:
+1. What are the main challenges and requirements for non-destructive testing in the
+Industry 4.0 scenario?
+2. Standardization of digital connections for non-destructive testingmethods in Industry 4.0.
+3. Skill development and cost-related issues for non-destructive testing in the Industry
+4.0 context.
+These are some major issues which can be addressed in future studies.
+8. Conclusions
+In the present study role of Industry 4.0 technologies to achieve manufacturing sustainability
+is discussed. The present study aimed to identify the current research progress
+in Industry 4.0 and sustainability by using a systematic literature review approach. In the
+study, a SLR was performed on three well-regarded digital scientific databases i.e., IEEE,
+Web of Science and Scopus. A total of 127 articles were selected after screening for review.
+The role of different key enabling technologies for Industry 4.0 was discussed in detail.
+The results indicate that manufacturing sustainability can be enhanced with Industry 4.0
+technologies. The research in Industry 4.0 and manufacturing sustainability have several
+new scopes.
+Appl. Sci. 2021, 11, 5725 21 of 27
+In the literature it is found that the majority of studies focused on a general discussion
+about the Industry 4.0 concepts and theories. However, very few studies discuss the role of
+shop floor activities and different technologies for achieving manufacturing sustainability.
+In shop floor management, case studies and simulation approaches were used to validate
+the proposed architectures. There is lack of studies on planning and scheduling which can
+contribute to achieve manufacturing sustainability.
+As a new service-oriented and network-based manufacturing paradigm, manufacturing
+sustainability has experienced rapid advancement and development in the last
+few years. Within the SM system, the emerging key enabling technologies of Industry 4.0
+such as blockchain, big data, AI, machine learning and IoT are being increasingly used by
+industries to capture and analyze data in different life-cycles of products. Consequently, a
+large amount of data is available and used for decision making in life-cycle management
+with BDA. The literature review revealed that Industry 4.0 has a significant impact on
+the manufacturing sustainability in different stages. However, research in this area is still
+limited. To address these research limitations, authors have provided insights for future
+research work in different areas. The following significant contributions are from this SLR:
+ This study discusses the role and opportunities for Industry 4.0 technologies for
+various manufacturing operations in industries. The previous published studies
+were limited to the general concepts related to Industry 4.0 theories and concepts.
+The role and opportunities for shop floor management in Industry 4.0 are discussed.
+Furthermore, this study provides the impact of various Industry 4.0 technologies on
+each sustainability dimension which will be helpful for future studies.
+ Secondly, this study uses the three major scientific databases i.e., IEEE explore, Scopus
+and Web of science, for the literature collection which was the limitation in previously
+published studies. This study followed the PRISMA approach for a systematic
+literature review and, on the basis of final articles, different opportunities for the
+manufacturing sustainability with Industry 4.0 technologies are discussed.
+ Finally, from the literature review various research issues and challenges in Industry
+4.0 were identified which can be explored in the future studies.
+Both industry and academics leaders will obtain insights from the findings of this
+study. Future studies should be focused on the framework development with the different
+Industry 4.0 technologies to achieve sustainability in both large enterprises and small
+enterprises. In addition, areas like lean production in Industry 4.0 and the role of AI and
+machine learning for manufacturing sustainability can be explored.
+Author Contributions: Conceptualization, A.J. and A.G.; methodology, A.J.; software, A.J.; validation,
+R.A., M.S. and A.G.; formal analysis, R.A., M.S. and A.G.; investigation, R.A.; resources, M.S.
+and A.G.; writing—original draft preparation, A.J.; writing—review and editing, A.J.; visualization,
+A.J.; supervision, R.A., M.S. and A.G.; project administration, A.G.; funding acquisition, A.G. All
+authors have read and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conflicts of Interest: The authors declare no conflict of interest.
+References
+1. Aiello, G.; Giallanza, A.; Vacante, S.; Fasoli, S.; Mascarella, G. Propulsion Monitoring System for Digitized Ship Management:
+Preliminary Results from a Case Study. Procedia Manuf. 2020, 42, 16–23. [CrossRef]
+2. Oztemel, E.; Gursev, S. Literature Review of Industry 4.0 and Related Technologies. J. Intell. Manuf. 2020, 31, 127–182. [CrossRef]
+3. Stock, T.; Seliger, G. Opportunities of Sustainable Manufacturing in Industry 4.0. In Procedia CIRP, Proceedings of the 13th Global
+Conference on Sustainable Manufacturing—Decoupling Growth from Resource Use, Binh Duong, Vietnam, 16–18 September 2016; Seliger,
+G., Malon, J., Kohl, H., Eds.; Elsevier B.V.: Amsterdam, The Netherlands, 2016; Volume 40, pp. 536–541.
+Appl. Sci. 2021, 11, 5725 22 of 27
+4. Machado, C.G.; Winroth, M.P.; Ribeiro da Silva, E.H.D. Sustainable Manufacturing in Industry 4.0: An Emerging Research
+Agenda. Int. J. Prod. Res. 2020, 58, 1462–1484. [CrossRef]
+5. Zhong, R.Y.; Xu, X.; Klotz, E.; Newman, S.T. Intelligent Manufacturing in the Context of Industry 4.0: A Review. Engineering 2017,
+3, 616–630. [CrossRef]
+6. Kim, J.H. A Review of Cyber-Physical System Research Relevant to the Emerging IT Trends: Industry 4.0, IoT, Big Data, and
+Cloud Computing. J. Ind. Integr. Manag. 2017, 2, 1750011. [CrossRef]
+7. Ejsmont, K.; Gladysz, B.; Kluczek, A. Impact of Industry 4.0 on Sustainability-Bibliometric Literature Review. Sustainability 2020,
+12, 5650. [CrossRef]
+8. Sharma, R.; Jabbour, C.J.C.; Lopes de Sousa Jabbour, A.B. Sustainable Manufacturing and Industry 4.0: What We Know and What
+We Don’t. J. Enterp. Inf. Manag. 2020. [CrossRef]
+9. De Sousa Jabbour, A.B.L.; Jabbour, C.J.C.; Foropon, C.; Filho, M.G. When Titans Meet—Can Industry 4.0 Revolutionise the
+Environmentally-Sustainable ManufacturingWave? The Role of Critical Success Factors. Technol. Forecast. Soc. Change 2018, 132,
+18–25. [CrossRef]
+10. Kamble, S.S.; Gunasekaran, A.; Gawankar, S.A. Sustainable Industry 4.0 Framework: A Systematic Literature Review Identifying
+the Current Trends and Future Perspectives. Process. Saf. Environ. Prot. 2018, 117, 408–425. [CrossRef]
+11. Bag, S.; Pretorius, J.H.C. Relationships between Industry 4.0, Sustainable Manufacturing and Circular Economy: Proposal of a
+Research Framework. Int. J. Organ. Anal. 2020. [CrossRef]
+12. Haapala, K.R.; Zhao, F.; Camelio, J.; Sutherland, J.W.; Skerlos, S.J.; Dornfeld, D.A.; Jawahir, I.S.; Clarens, A.F.; Rickli, J.L. A Review
+of Engineering Research in Sustainable Manufacturing. J. Manuf. Sci. Eng. Trans. ASME 2013, 135. [CrossRef]
+13. Garetti, M.; Taisch, M. Sustainable Manufacturing: Trends and Research Challenges. Prod. Plan. Control. 2012, 23, 83–104.
+[CrossRef]
+14. Jayal, A.D.; Badurdeen, F.; Dillon, O.W., Jr.; Jawahir, I.S. Sustainable Manufacturing: Modeling and Optimization Challenges at
+the Product, Process and System Levels. CIRP J. Manuf. Sci. Technol. 2010, 2, 144–152. [CrossRef]
+15. ITA, U. How Does Commerce Define Sustainable Manufacturing? 2012. Available online: https://oneill.indiana.edu/doc/
+research/sustainability-2014.pdf (accessed on 17 May 2021).
+16. Sartal, A.; Bellas, R.; Mejías, A.M.; García-Collado, A. The Sustainable Manufacturing Concept, Evolution and Opportunities
+within Industry 4.0: A Literature Review. Adv. Mech. Eng. 2020, 12. [CrossRef]
+17. McElnea,W.K. Sustainable Manufacturing Initiative: U.S. Department of Commerce. Int. J. Powder Metall. Princet. N. J. 2011, 47,
+12–16.
+18. Giallanza, A.; Aiello, G.; Marannano, G.; Nigrelli, V. Industry 4.0: Smart Test Bench for Shipbuilding Industry. Int. J. Interact. Des.
+Manuf. IJIDeM 2020, 14, 1525–1533. [CrossRef]
+19. Borregan-Alvarado, J.; Alvarez-Meaza, I.; Cilleruelo-Carrasco, E.; Garechana-Anacabe, G. A Bibliometric Analysis in Industry 4.0
+and Advanced Manufacturing: What about the Sustainable Supply Chain? Sustainability 2020, 12, 7840. [CrossRef]
+20. Giallanza, A.; Aiello, G.; Marannano, G. Industry 4.0: Advanced Digital Solutions Implemented on a Close Power Loop Test
+Bench. Procedia Comput. Sci. 2021, 180, 93–101. [CrossRef]
+21. Lee, J.; Azamfar, M.; Singh, J. A Blockchain Enabled Cyber-Physical System Architecture for Industry 4.0 Manufacturing Systems.
+Manuf. Lett. 2019, 20, 34–39. [CrossRef]
+22. Thramboulidis, K.; Vachtsevanou, D.C.; Kontou, I. CPuS-IoT: A Cyber-Physical Microservice and IoT-Based Framework for
+Manufacturing Assembly Systems. Annu. Rev. Control 2019, 47, 237–248. [CrossRef]
+23. Abdirad, M.; Krishnan, K. Industry 4.0 in Logistics and Supply Chain Management: A Systematic Literature Review. EMJ Eng.
+Manag. J. 2020, 1–15. [CrossRef]
+24. Chalmeta, R.; Santos-deLeón, N.J. Sustainable Supply Chain in the Era of Industry 4.0 and Big Data: A Systematic Analysis of
+Literature and Research. Sustainability 2020, 12, 4108. [CrossRef]
+25. Moher, D.; Shamseer, L.; Clarke, M.; Ghersi, D.; Liberati, A.; Petticrew, M.; Shekelle, P.; Stewart, L.A. Preferred Reporting Items
+for Systematic Review and Meta-Analysis Protocols (PRISMA-P) 2015 Statement. Syst. Rev. 2015, 4, 1–9. [CrossRef] [PubMed]
+26. Petticrew, M. Systematic Reviews from Astronomy to Zoology: Myths and Misconceptions. BMJ 2001, 322, 98–101. [CrossRef]
+[PubMed]
+27. Korner, M.E.H.; Lambán, M.P.; Albajez, J.A.; Santolaria, J.; Corrales, L.C.N.; Royo, J. Systematic Literature Review: Integration of
+Additive Manufacturing and Industry 4.0. Metals 2020, 10, 1061. [CrossRef]
+28. Samala, T.; Manupati, V.K.; Varela, M.L.R.; Putnik, G. Investigation of Degradation and Upgradation Models for Flexible Unit
+Systems: A Systematic Literature Review. Future Internet 2021, 13, 57. [CrossRef]
+29. Antony, J.; Psomas, E.; Garza-Reyes, J.A.; Hines, P. Practical Implications and Future Research Agenda of Lean Manufacturing: A
+Systematic Literature Review. Prod. Plan. Control 2020, 1–37. [CrossRef]
+30. Müller, J.M.; Kiel, D.; Voigt, K.-I. What Drives the Implementation of Industry 4.0? The Role of Opportunities and Challenges in
+the Context of Sustainability. Sustainability 2018, 10, 247. [CrossRef]
+31. Kiel, D.; Müller, J.M.; Arnold, C.; Voigt, K.-I. Sustainable Industrial Value Creation: Benefits and Challenges of Industry 4.0. Int. J.
+Innov. Manag. 2017, 21. [CrossRef]
+32. Luthra, S.; Mangla, S.K. Evaluating Challenges to Industry 4.0 Initiatives for Supply Chain Sustainability in Emerging Economies.
+Process Saf. Environ. Prot. 2018, 117, 168–179. [CrossRef]
+Appl. Sci. 2021, 11, 5725 23 of 27
+33. Manavalan, E.; Jayakrishna, K. A Review of Internet of Things (IoT) Embedded Sustainable Supply Chain for Industry 4.0
+Requirements. Comput. Ind. Eng. 2019, 127, 925–953. [CrossRef]
+34. Aiello, G.; Giallanza, A.; Mascarella, G. Towards Shipping 4.0. A Preliminary Gap Analysis. Procedia Manuf. 2020, 42, 24–29.
+[CrossRef]
+35. Cica, D.; Sredanovic, B.; Tesic, S.; Kramar, D. Predictive Modeling of Turning Operations under Different Cooling/Lubricating
+Conditions for Sustainable Manufacturing with Machine Learning Techniques. Appl. Comput. Inform. 2020. [CrossRef]
+36. Pickard, M.; Grecu, I.; Grecu, G. Sustainable Smart Manufacturing in Industry 4.0: Real-Time Resource Planning, Process
+Monitoring, and Production Control. Econ. Manag. Financ. Mark. 2019, 14, 30–36. [CrossRef]
+37. Varela, L.; Araújo, A.; Ávila, P.; Castro, H.; Putnik, G. Evaluation of the Relation between Lean Manufacturing, Industry 4.0, and
+Sustainability. Sustainability 2019, 11, 1439. [CrossRef]
+38. Yang,W.; Takakuwa, S. Simulation-Based Dynamic Shop Floor Scheduling for a Flexible Manufacturing System in the Industry
+4.0 Environment. In Proceedings of the 2017 Winter Simulation Conference, Las Vegas, NV, USA, 3–6 December 2017; IEEE: New York,
+NY, USA, 2017; pp. 3908–3916.
+39. Jamwal, A.; Agrawal, R.; Sharma, M.; Kumar, A.; Kumar, V.; Garza-Reyes, J.A.A. Machine Learning Applications for Sustainable
+Manufacturing: A Bibliometric-Based Review for Future Research. J. Enterp. Inf. Manag. 2021. [CrossRef]
+40. Moica, S.; Ganzarain, J.; Ibarra, D.; Ferencz, P. ChangeMade in Shop FloorManagement to Transform a Conventional Production
+System into an “Industry 4.0”: Case Studies in SME Automotive ProductionManufacturing. In Proceedings of the 7th International
+Conference on Industrial Technology and Management (ICITM 2018), Oxford, UK, 7–9 March 2018; IEEE: New York, NY, USA, 2018;
+pp. 51–56.
+41. Mittal, S.; Romero, D.; Wuest, T. Towards a Smart Manufacturing Toolkit for SMEs. Prod. Lifecycle Manag. Support. Ind. 4.0. 2018,
+476–487. [CrossRef]
+42. Schmidt, D.; Villalba Diez, J.; Ordieres-Meré, J.; Gevers, R.; Schwiep, J.; Molina, M. Industry 4.0 Lean Shopfloor Management
+Characterization Using EEG Sensors and Deep Learning. Sensors 2020, 20, 2860. [CrossRef]
+43. Godina, R.; Ribeiro, I.; Matos, F.; Ferreira, B.T.; Carvalho, H.; Peças, P. Impact Assessment of Additive Manufacturing on
+Sustainable Business Models in Industry 4.0 Context. Sustainability 2020, 12, 66. [CrossRef]
+44. Haleem, A.; Javaid, M. Additive Manufacturing Applications in Industry 4.0: A Review. J. Ind. Integr. Manag. 2019, 4, 1930001.
+[CrossRef]
+45. Ford, S.; Despeisse, M. Additive Manufacturing and Sustainability: An Exploratory Study of the Advantages and Challenges. J.
+Clean. Prod. 2016, 137, 1573–1587. [CrossRef]
+46. Jamwal, A.; Agrawal, R.; Sharma, M.; Kumar, V.; Kumar, S. Developing A Sustainability Framework for Industry 4.0. Procedia
+CIRP 2021, 98, 430–435. [CrossRef]
+47. Yadav, G.; Kumar, A.; Luthra, S.; Garza-Reyes, J.A.; Kumar, V.; Batista, L. A Framework to Achieve Sustainability in Manufacturing
+Organisations of Developing Economies Using Industry 4.0 Technologies’ Enablers. Comput. Ind. 2020, 122. [CrossRef]
+48. Mittal, S.; Khan, M.A.; Romero, D.; Wuest, T. A Critical Review of Smart Manufacturing & Industry 4.0 Maturity Models:
+Implications for Small and Medium-Sized Enterprises (SMEs). J. Manuf. Syst. 2018, 49, 194–214.
+49. Wang, L.; Wang, G. Big Data in Cyber-Physical Systems, Digital Manufacturing and Industry 4.0. Int. J. Eng. Manuf. IJEM 2016, 6,
+1–8.
+50. Addo-Tenkorang, R.; Helo, P.T. Big Data Applications in Operations/Supply-Chain Management: A Literature Review. Comput.
+Ind. Eng. 2016, 101, 528–543. [CrossRef]
+51. Castelo-Branco, I.; Cruz-Jesus, F.; Oliveira, T. Assessing Industry 4.0 Readiness in Manufacturing: Evidence for the European
+Union. Comput. Ind. 2019, 107, 22–32. [CrossRef]
+52. Frank, A.G.; Dalenogare, L.S.; Ayala, N.F. Industry 4.0 Technologies: Implementation Patterns in Manufacturing Companies. Int.
+J. Prod. Econ. 2019, 210, 15–26. [CrossRef]
+53. Papadopoulos, T.; Singh, S.P.; Spanaki, K.; Gunasekaran, A.; Dubey, R. Towards the next Generation of Manufacturing: Implications
+of Big Data and Digitalization in the Context of Industry 4.0. Prod. Plan. Control. 2021. [CrossRef]
+54. Li, D.; Tang, H.;Wang, S.; Liu, C. A Big Data Enabled Load-Balancing Control for Smart Manufacturing of Industry 4.0. Clust.
+Comput. 2017, 20, 1855–1864. [CrossRef]
+55. Tao, F.; Qi, Q.;Wang, L.; Nee, A.Y.C. Digital Twins and Cyber–Physical Systems toward Smart Manufacturing and Industry 4.0:
+Correlation and Comparison. Engineering 2019, 5, 653–661. [CrossRef]
+56. Ke, S.; Xiang, F.; Zhang, Z.; Zuo, Y. A Enhanced Interaction Framework Based on VR, AR and MR in Digital Twin. Procedia Cirp
+2019, 83, 753–758. [CrossRef]
+57. Wang, X.V.;Wang, L. Digital Twin-Based WEEE Recycling, Recovery and Remanufacturing in the Background of Industry 4.0. Int.
+J. Prod. Res. 2019, 57, 3892–3902. [CrossRef]
+58. Lee, J.; Davari, H.; Singh, J.; Pandhare, V. Industrial Artificial Intelligence for Industry 4.0-Based Manufacturing Systems. Manuf.
+Lett. 2018, 18, 20–23. [CrossRef]
+59. Ayvaz, S.; Alpay, K. Predictive maintenance system for production lines in manufacturing: A machine learning approach using
+IoT data in real-time. Expert Syst. Appl. 2021, 173, 114598. [CrossRef]
+Appl. Sci. 2021, 11, 5725 24 of 27
+60. Yao, X.; Zhou, J.; Zhang, J.; Boër, C.R. From Intelligent Manufacturing to Smart Manufacturing for Industry 4.0 Driven by next
+Generation Artificial Intelligence and Further On. In Proceedings of the 2017 5th International Conference on Enterprise Systems (ES),
+Beijing, China, 22–24 September 2017; IEEE: New York, NY, USA, 2017; pp. 311–318.
+61. Bajic, B.; Cosic, I.; Lazarevic, M.; Sremcev, N.; Rikalovic, A. Machine Learning Techniques for Smart Manufacturing: Applications
+and Challenges in Industry 4.0. In Proceedings of the 9th International Scientific and Expert Conference, Novi Sad, Serbia, 10-12
+October 2018; p. 29.
+62. Cioffi, R.; Travaglioni, M.; Piscitelli, G.; Petrillo, A.; De Felice, F. Artificial Intelligence and Machine Learning Applications in
+Smart Production: Progress, Trends, and Directions. Sustainability 2020, 12, 492. [CrossRef]
+63. Angelopoulos, A.; Michailidis, E.T.; Nomikos, N.; Trakadas, P.; Hatziefremidis, A.; Voliotis, S.; Zahariadis, T. Tackling Faults in
+the Industry 4.0 Era—a Survey of Machine-Learning Solutions and Key Aspects. Sensors 2020, 20, 109. [CrossRef]
+64. Çınar, Z.M.; Abdussalam Nuhu, A.; Zeeshan, Q.; Korhan, O.; Asmael, M.; Safaei, B. Machine Learning in Predictive Maintenance
+towards Sustainable Smart Manufacturing in Industry 4.0. Sustainability 2020, 12, 8211. [CrossRef]
+65. Candanedo, I.S.; Nieves, E.H.; González, S.R.; Martín, M.T.S.; Briones, A.G. Machine Learning Predictive Model for Industry 4.0;
+Springer: Berlin/Heidelberg, Germany, 2018; pp. 501–510.
+66. Psarommatis, F.; May, G.; Dreyfus, P.-A.; Kiritsis, D. Zero Defect Manufacturing: State-of-the-Art Review, Shortcomings and
+Future Directions in Research. Int. J. Prod. Res. 2020, 58, 1–17. [CrossRef]
+67. Huang, Z.; Angadi, V.C.; Danishvar, M.; Mousavi, A.; Li, M. Zero Defect Manufacturing of Microsemiconductors—An Application
+of Machine Learning and Artificial Intelligence. In Proceedings of the 2018 5th International Conference on Systems and Informatics
+(ICSAI), Nanjing, China, 10–18 November 2018; IEEE: New York, NY, USA, 2018; pp. 449–454.
+68. Lindström, J.; Kyösti, P.; Birk, W.; Lejon, E. An Initial Model for Zero Defect Manufacturing. Appl. Sci. 2020, 10, 4570. [CrossRef]
+69. Eger, F.; Coupek, D.; Caputo, D.; Colledani, M.; Penalva, M.; Ortiz, J.A.; Freiberger, H.; Kollegger, G. Zero Defect Manufacturing
+Strategies for Reduction of Scrap and Inspection Effort inMulti-Stage Production Systems. Procedia CIRP 2018, 67, 368–373. [CrossRef]
+70. Psarommatis, F.; Vuichard, M.; Kiritsis, D. Improved Heuristics Algorithms for Re-Scheduling Flexible Job Shops in the Era of
+Zero Defect Manufacturing. Procedia Manuf. 2020, 51, 1485–1490. [CrossRef]
+71. Saqlain, M.; Piao, M.; Shim, Y.; Lee, J.Y. Framework of an IoT-Based Industrial Data Management for Smart Manufacturing. J.
+Sens. Actuator Netw. 2019, 8, 25. [CrossRef]
+72. Islam, M.M.; AlGeddawy, T. The Industrial Internet of Things Models, Challenges and Opportunities in Sustainable Manufacturing.
+In Proceedings of the 39th International Annual Conference of the American Society for Engineering Management, ASEM 2018:
+Bridging the Gap Between Engineering and Business, Coeur D’Alene, ID, USA, 17–20 October 2018; American Society for Engineering
+Management: Huntsville, AL, USA, 2018; pp. 122–131.
+73. Belli, L.; Davoli, L.; Medioli, A.; Marchini, P.L.; Ferrari, G. Toward Industry 4.0 with IoT: Optimizing Business Processes in an
+Evolving Manufacturing Factory. Front. ICT 2019, 6, 17. [CrossRef]
+74. Wan, J.; Chen, B.; Imran, M.; Tao, F.; Li, D.; Liu, C.; Ahmad, S. Toward Dynamic Resources Management for IoT-Based
+Manufacturing. IEEE Commun. Mag. 2018, 56, 52–59. [CrossRef]
+75. Gerrikagoitia, J.K.; Unamuno, G.; Urkia, E.; Serna, A. Digital Manufacturing Platforms in the Industry 4.0 from Private and Public
+Perspectives. Appl. Sci. 2019, 9, 2934. [CrossRef]
+76. Xu, L.D.; Xu, E.L.; Li, L. Industry 4.0: State of the Art and Future Trends. Int. J. Prod. Res. 2018, 56, 2941–2962. [CrossRef]
+77. Beier, G.; Ullrich, A.; Niehoff, S.; Reißig, M.; Habich, M. Industry 4.0: How It Is Defined from a Sociotechnical Perspective and
+How Much Sustainability It Includes—A Literature Review. J. Clean. Prod. 2020, 259. [CrossRef]
+78. Singh, R.; Bhanot, N. An Integrated DEMATEL-MMDE-ISM Based Approach for Analysing the Barriers of IoT Implementation in
+the Manufacturing Industry. Int. J. Prod. Res. 2020, 58, 2454–2476. [CrossRef]
+79. Xu, X. From Cloud Computing to Cloud Manufacturing. Robot. Comput. Integr. Manuf. 2012, 28, 75–86. [CrossRef]
+80. Caggiano, A. Cloud-Based Manufacturing Process Monitoring for Smart Diagnosis Services. Int. J. Comput. Integr. Manuf. 2018,
+31, 612–623. [CrossRef]
+81. Li, B.-H.; Zhang, L.; Ren, L.; Chai, X.-D.; Tao, F.; Wang, Y.-Z.; Yin, C.; Huang, P.; Zhao, X.-P.; Zhou, Z.-D. Typical Characteristics,
+Technologies and Applications of Cloud Manufacturing. Comput. Integr. Manuf. Syst. 2012, 18, 1345–1356.
+82. Adamson, G.; Wang, L.; Holm, M.; Moore, P. Cloud Manufacturing–a Critical Review of Recent Development and Future Trends.
+Int. J. Comput. Integr. Manuf. 2017, 30, 347–380. [CrossRef]
+83. Liu, Y.;Wang, L.;Wang, X.V.; Xu, X.; Zhang, L. Scheduling in Cloud Manufacturing: State-of-the-Art and Research Challenges.
+Int. J. Prod. Res. 2019, 57, 4854–4879. [CrossRef]
+84. Tao, F.; Zhang, L.; Venkatesh, V.; Luo, Y.; Cheng, Y. Cloud Manufacturing: A Computing and Service-Oriented Manufacturing
+Model. Proc. Inst. Mech. Eng. Part. B J. Eng. Manuf. 2011, 225, 1969–1976. [CrossRef]
+85. Liu, Y.;Wang, L.;Wang, X.V.; Xu, X.; Jiang, P. Cloud Manufacturing: Key Issues and Future Perspectives. Int. J. Comput. Integr.
+Manuf. 2019, 32, 858–874. [CrossRef]
+86. Wu, D.; Greer, M.J.; Rosen, D.W.; Schaefer, D. Cloud Manufacturing: Strategic Vision and State-of-the-Art. J. Manuf. Syst. 2013, 32,
+564–579. [CrossRef]
+87. Coronado, P.D.U.; Lynn, R.; Louhichi, W.; Parto, M.; Wescoat, E.; Kurfess, T. Part Data Integration in the Shop Floor Digital Twin:
+Mobile and Cloud Technologies to Enable a Manufacturing Execution System. J. Manuf. Syst. 2018, 48, 25–33. [CrossRef]
+Appl. Sci. 2021, 11, 5725 25 of 27
+88. Varela, M.L.; Putnik, G.D.; Manupati, V.K.; Rajyalakshmi, G.; Trojanowska, J.; Machado, J. Collaborative Manufacturing Based on
+Cloud, and on Other I4. 0 Oriented Principles and Technologies: A Systematic Literature Review and Reflections. Manag. Prod.
+Eng. Rev. 2018, 9, 90–99.
+89. Lu, Y.; Xu, X. Cloud-Based Manufacturing Equipment and Big Data Analytics to Enable on-Demand Manufacturing Services.
+Robot. Comput. Integr. Manuf. 2019, 57, 92–102. [CrossRef]
+90. Mubarok, K.; Xu, X.; Ye, X.; Zhong, R.Y.; Lu, Y. Manufacturing Service Reliability Assessment in Cloud Manufacturing. Procedia
+CIRP 2018, 72, 940–946. [CrossRef]
+91. Fisher, O.;Watson, N.; Porcu, L.; Bacon, D.; Rigley, M.; Gomes, R.L. Cloud Manufacturing as a Sustainable Process Manufacturing
+Route. J. Manuf. Syst. 2018, 47, 53–68. [CrossRef]
+92. Bottani, E.; Vignali, G. Augmented Reality Technology in the Manufacturing Industry: A Review of the Last Decade. IISE Trans.
+2019, 51, 284–310. [CrossRef]
+93. Damiani, L.; Revetria, R.; Morra, E. Safety in Industry 4.0: The Multi-Purpose Applications of Augmented Reality in Digital
+Factories. Adv. Sci. Technol. Eng. Syst. 2020, 5, 248–253. [CrossRef]
+94. Lai, Z.-H.; Tao, W.; Leu, M.C.; Yin, Z. Smart Augmented Reality Instructional System for Mechanical Assembly towards
+Worker-Centered Intelligent Manufacturing. J. Manuf. Syst. 2020, 55, 69–81. [CrossRef]
+95. Nabati, E.; Nieto, M.A.; Decker, A.; Thoben, K.-D. Application of Virtual Reality Technologies for Achieving Energy Efficient Manufacturing:
+Literature Analysis and Findings; Springer: Berlin/Heidelberg, Germany, 2020; pp. 479–486.
+96. Shiba, Y.; Imai, S. Development of Engineering Educational Support System for Manufacturing Using Augmented Reality; IEEE: New
+York, NY, USA, 2020; pp. 198–202.
+97. Lee, H. Real-Time Manufacturing Modeling and Simulation Framework Using Augmented Reality and Stochastic Network
+Analysis. Virtual Real. 2019, 23, 85–99. [CrossRef]
+98. Rumsey, A.; Le Dantec, C.A. Manufacturing Change: The Impact of Virtual Environments on Real Organizations. In Proceedings
+of the CHI ’20: CHI Conference on Human Factors in Computing Systems, Honolulu, HI, USA, 25–30 April 2020; pp. 1–12.
+99. Mittal, S.; Khan, M.A.; Romero, D.; Wuest, T. Smart Manufacturing: Characteristics, Technologies and Enabling Factors. Proc. Inst.
+Mech. Eng. Part B J. Eng. Manuf. 2019, 233, 1342–1361. [CrossRef]
+100. Malik, A.A.; Masood, T.; Bilberg, A. Virtual Reality in Manufacturing: Immersive and Collaborative Artificial-Reality in Design of
+Human-Robot Workspace. Int. J. Comput. Integr. Manuf. 2020, 33, 22–37. [CrossRef]
+101. Mandic, V. Model-Based Manufacturing System Supported by Virtual Technologies in an Industry 4.0 Context; Springer:
+Berlin/Heidelberg, Germany, 2020; pp. 215–226.
+102. Leng, J.; Ruan, G.; Jiang, P.; Xu, K.; Liu, Q.; Zhou, X.; Liu, C. Blockchain-Empowered Sustainable Manufacturing and Product
+Lifecycle Management in Industry 4.0: A Survey. Renew. Sustain. Energy Rev. 2020, 132. [CrossRef]
+103. Li, Z.; Barenji, A.V.; Huang, G.Q. Toward a Blockchain Cloud Manufacturing System as a Peer to Peer Distributed Network
+Platform. Robot. Comput. Integr. Manuf. 2018, 54, 133–144. [CrossRef]
+104. Westerkamp, M.; Victor, F.; Küpper, A. Tracing Manufacturing Processes Using Blockchain-Based Token Compositions. Digit.
+Commun. Netw. 2020, 6, 167–176. [CrossRef]
+105. Lohmer, J.; Lasch, R. Blockchain in Operations Management and Manufacturing: Potential and Barriers. Comput. Ind. Eng. 2020,
+149, 106789. [CrossRef]
+106. Ko, T.; Lee, J.; Ryu, D. Blockchain Technology and Manufacturing Industry: Real-Time Transparency and Cost Savings. Sustainability
+2018, 10, 4274. [CrossRef]
+107. Yu, C.; Zhang, L.; Zhao, W.; Zhang, S. A Blockchain-Based Service Composition Architecture in Cloud Manufacturing. Int. J.
+Comput. Integr. Manuf. 2020, 33, 701–715. [CrossRef]
+108. Aghamohammadzadeh, E.; Fatahi Valilai, O. A Novel Cloud Manufacturing Service Composition Platform Enabled by Blockchain
+Technology. Int. J. Prod. Res. 2020, 58, 5280–5298. [CrossRef]
+109. Zhang, Y.; Xu, X.; Liu, A.; Lu, Q.; Xu, L.; Tao, F. Blockchain-Based Trust Mechanism for IoT-Based Smart Manufacturing System.
+IEEE Trans. Comput. Soc. Syst. 2019, 6, 1386–1394. [CrossRef]
+110. Yu, C.; Jiang, X.; Yu, S.; Yang, C. Blockchain-Based Shared Manufacturing in Support of Cyber Physical Systems: Concept,
+Framework, and Operation. Robot. Comput. Integr. Manuf. 2020, 64, 101931. [CrossRef]
+111. Tao, F.; Zhang, Y.; Cheng, Y.; Ren, J.; Wang, D.; Qi, Q.; Li, P. Digital Twin and Blockchain Enhanced Smart Manufacturing Service
+Collaboration and Management. J. Manuf. Syst. 2020. [CrossRef]
+112. Barenji, A.V.; Li, Z.;Wang,W.M. Blockchain Cloud Manufacturing: Shop Floor and Machine Level. In Proceedings of the Smart
+SysTech 2018; European Conference on Smart Objects, Systems and Technologies, Dresden, Germany, 12–13 June 2018; VDE: Berlin,
+Germany, 2018; pp. 1–6.
+113. Ouyang, L.; Yuan, Y.; Wang, F.-Y. A Blockchain-Based Framework for Collaborative Production in Distributed and Social
+Manufacturing. In Proceedings of the IEEE International Conference on Service Operations and Logistics, and Informatics, SOLI,
+Zhengzhou, China, 11–13 October 2019; IEEE: New York, NY, USA, 2019; pp. 76–81.
+114. Touzout, F.A.; Benyoucef, L. Multi-Objective Sustainable Process Plan Generation in a Reconfigurable Manufacturing Environment:
+Exact and Adapted Evolutionary Approaches. Int. J. Prod. Res. 2019, 57, 2531–2547. [CrossRef]
+Appl. Sci. 2021, 11, 5725 26 of 27
+115. Khezri, A.; Benderbal, H.H.; Benyoucef, L. A Sustainable Reconfigurable Manufacturing System Designing with Focus on
+Environmental Hazardous Wastes. In Proceedings of the IEEE International Conference on Emerging Technologies and Factory
+Automation, ETFA, Zaragoza, Spain, 10–13 September 2019; Institute of Electrical and Electronics Engineers Inc.: New York, NY,
+USA, 2019; Volume 2019-Septe, pp. 317–324.
+116. Alcácer, V.; Cruz-Machado, V. Scanning the Industry 4.0: A Literature Review on Technologies for Manufacturing Systems. Eng.
+Sci. Technol. Int. J. 2019, 22, 899–919. [CrossRef]
+117. Vaidya, S.; Ambad, P.; Bhosle, S. Industry 4.0—A Glimpse. Procedia Manuf. 2018, 20, 233–238. [CrossRef]
+118. Long, F.; Zeiler, P.; Bertsche, B. Modelling the Flexibility of Production Systems in Industry 4.0 for Analysing Their Productivity
+and Availability with High-Level Petri Nets. IFAC Pap. 2017, 50, 5680–5687. [CrossRef]
+119. Suzi´c, N.; Forza, C.; Trentin, A.; Aniši´c, Z. Implementation Guidelines for Mass Customization: Current Characteristics and
+Suggestions for Improvement. Prod. Plan. Control 2018, 29, 856–871. [CrossRef]
+120. Wang, Y.; Ma, H.-S.; Yang, J.-H.; Wang, K.-S. Industry 4.0: A Way from Mass Customization to Mass Personalization Production.
+Adv. Manuf. 2017, 5, 311–320. [CrossRef]
+121. Khalil, T.; Olivia, P.; Thierno, M.D.; Romdhane, B.K.; Noureddine, B.Y.; Jean-Yves, C. Model Based Systems Engineering Approach
+for the Improvement of Manufacturing System Flexibility. In Proceedings of the International Workshop on Research and Education in
+Mechatronics (REM), Cracow, Poland, 10 December 2020; IEEE: New York, NY, USA, 2020; pp. 1–6.
+122. Florescu, A.; Barabas, S.A. Modeling and Simulation of a Flexible Manufacturing System—A Basic Component of Industry 4.0.
+Appl. Sci. 2020, 10, 8300. [CrossRef]
+123. Luscinski, S.; Ivanov, V. A Simulation Study of Industry 4.0 Factories Based on the Ontology on Flexibility with Using FlexSimr
+Software. Manag. Prod. Eng. Rev. 2020, 11, 74–83.
+124. Sang, G.M.; Xu, L.; de Vrieze, P.; Bai, Y. Towards Predictive Maintenance for Flexible Manufacturing Using FIWARE; Springer:
+Berlin/Heidelberg, Germany, 2020; pp. 17–28.
+125. Goel, R.; Gupta, P. Robotics and industry 4.0. In A Roadmap to Industry 4.0: Smart Production, Sharp Business and Sustainable
+Development; Nayyar, A., Kumar, A., Eds.; Springer: Berlin/Heidelberg, Germany, 2020; pp. 157–169.
+126. Krueger, V.; Rovida, F.; Grossmann, B.; Petrick, R.; Crosby, M.; Charzoule, A.; Martin Garcia, G.; Behnke, S.; Toscano, C.; Veiga, G.
+Testing the Vertical and Cyber-Physical Integration of Cognitive Robots in Manufacturing. Robot. Comput. Integr. Manuf. 2019, 57,
+213–229. [CrossRef]
+127. Dhanabalan, T.; Sathish, A. Transforming Indian Industries through Artificial Intelligence and Robotics in Industry 4.0. Int. J.
+Mech. Eng. Technol. 2018, 9, 835–845.
+128. Bragança, S.; Costa, E.; Castellucci, I.; Arezes, P.M. A Brief Overview of the Use of Collaborative Robots in Industry 4.0: Human
+Role and Safety. In Occupational and Environmental Safety and Health; Arezes, P.M., Baptista, J.S., Barroso, M.P., Carneiro, P.,
+Cordeiro, P., Costa, N., Melo, R.B., Miguel, A.S., Perestrelo, G., Eds.; Springer: Berlin/Heidelberg, Germany, 2019; pp. 641–650.
+129. Karabegovi´c, I.; Karabegovi´c, E.; Mahmi´c, M.; Husak, E. Implementation of Industry 4.0 and Industrial Robots in the Manufacturing
+Processes; Springer: Berlin/Heidelberg, Germany, 2019; pp. 3–14.
+130. Fragapane, G.; Ivanov, D.; Peron, M.; Sgarbossa, F.; Strandhagen, J.O. Increasing Flexibility and Productivity in Industry 4.0
+Production Networks with Autonomous Mobile Robots and Smart Intralogistics. Ann. Oper. Res. 2020, 1–19. [CrossRef]
+131. Karabegovi´c, I. The Role of Industrial and Service Robots in the 4th Industrial Revolution—“Industry 4.0”. Acta Tech. Corviniensis
+Bull. Eng. 2018, 11, 11–16.
+132. Wan, J.; Tang, S.; Hua, Q.; Li, D.; Liu, C.; Lloret, J. Context-Aware Cloud Robotics for Material Handling in Cognitive Industrial
+Internet of Things. IEEE Internet Things J. 2017, 5, 2272–2281. [CrossRef]
+133. Culot, G.; Fattori, F.; Podrecca, M.; Sartor, M. Addressing Industry 4.0 Cybersecurity Challenges. IEEE Eng. Manag. Rev. 2019, 47,
+79–86. [CrossRef]
+134. Ervural, B.C.; Ervural, B. Overview of cyber security in the industry 4.0 era. In Industry 4.0: Managing the Digital Transformation;
+Ustundag, A., Cevikcan, E., Eds.; Springer: Berlin/Heidelberg, Germany, 2018; pp. 267–284.
+135. Rubio, J.E.; Roman, R.; Lopez, J. Analysis of Cybersecurity Threats in Industry 4.0: The Case of Intrusion Detection; Springer:
+Berlin/Heidelberg, Germany, 2017; pp. 119–130.
+136. Elmamy, S.B.; Mrabet, H.; Gharbi, H.; Jemai, A.; Trentesaux, D. A Survey on the Usage of Blockchain Technology for Cyber-Threats
+in the Context of Industry 4.0. Sustainability 2020, 12, 9179. [CrossRef]
+137. Lezzi, M.; Lazoi, M.; Corallo, A. Cybersecurity for Industry 4.0 in the Current Literature: A Reference Framework. Comput. Ind.
+2018, 103, 97–110. [CrossRef]
+138. Ghobakhloo,M. The Future ofManufacturing Industry: A Strategic Roadmap toward Industry 4.0. J.Manuf. Technol. Manag. 2018.
+[CrossRef]
+139. Wegner, A.; Graham, J.; Ribble, E. A new approach to cyberphysical security in industry 4.0. In Cybersecurity for Industry 4.0;
+Thames, L., Schaefer, D., Eds.; Springer: Berlin/Heidelberg, Germany, 2017; pp. 59–72.
+140. Jamwal, A.; Agrawal, R.; Sharma, M.; Kumar, V. Review on Multi-Criteria Decision Analysis in Sustainable Manufacturing
+Decision Making. Int. J. Sustain. Eng. 2021. [CrossRef]
+141. Vinuesa, R.; Azizpour, H.; Leite, I.; Balaam, M.; Dignum, V.; Domisch, S.; Felländer, A.; Langhans, S.D.; Tegmark, M.; Nerini, F.F.
+The Role of Artificial Intelligence in Achieving the Sustainable Development Goals. Nat. Commun. 2020, 11, 1–10. [CrossRef]
+142. Ghobakhloo, M. Industry 4.0, Digitization, and Opportunities for Sustainability. J. Clean. Prod. 2020, 252. [CrossRef]
+Appl. Sci. 2021, 11, 5725 27 of 27
+143. Braccini, A.M.; Margherita, E.G. Exploring Organizational Sustainability of Industry 4.0 under the Triple Bottom Line: The Case
+of a Manufacturing Company. Sustainability 2018, 11, 36. [CrossRef]
+144. Brozzi, R.; Forti, D.; Rauch, E.; Matt, D.T. The Advantages of Industry 4.0 Applications for Sustainability: Results from a Sample
+of Manufacturing Companies. Sustainability 2020, 12, 3647. [CrossRef]
+145. Müller, J.M.; Voigt, K.-I. Sustainable Industrial Value Creation in SMEs: A Comparison between Industry 4.0 and Made in China
+2025. Int. J. Precis. Eng. Manuf. Green Technol. 2018, 5, 659–670. [CrossRef]
+146. Luthra, S.; Kumar, A.; Zavadskas, E.K.;Mangla, S.K.; Garza-Reyes, J.A. Industry 4.0 as an Enabler of Sustainability Diffusion in Supply
+Chain: An Analysis of Influential Strength of Drivers in an Emerging Economy. Int. J. Prod. Res. 2020, 58, 1505–1521. [CrossRef]
+147. Vrchota, J.; Pech, M.; Rolínek, L.; Bednáˇr, J. Sustainability Outcomes of Green Processes in Relation to Industry 4.0 in Manufacturing:
+Systematic Review. Sustainability 2020, 12, 5968. [CrossRef]
+148. Tayal, A.; Solanki, A.; Singh, S.P. Integrated Frame Work for Identifying Sustainable Manufacturing Layouts Based on Big Data,
+Machine Learning, Meta-Heuristic and Data Envelopment Analysis. Sustain. Cities Soc. 2020, 62. [CrossRef]
+149. Waibel, M.W.; Oosthuizen, G.A.; Du Toit, D.W. Investigating Current Smart Production Innovations in the Machine Building
+Industry on Sustainability Aspects. In Procedia Manufacturing, Proceedings of the 15th Global Conference on Sustainable Manufacturing,
+Haifa, Israel, 25–27 September 2018; Shpitalni, M., Kagermann, H., Seliger, G., Wertheim, R., Fischer, A., Eds.; Elsevier B.V.:
+Amsterdam, The Netherlands, 2018; Volume 21, pp. 774–781.
+150. Ghobakhloo, M.; Fathi, M. Corporate Survival in Industry 4.0 Era: The Enabling Role of Lean-Digitized Manufacturing. J. Manuf.
+Technol. Manag. 2020, 31, 1–30. [CrossRef]
+151. Bhanot, N.; Rao, P.V.; Deshmukh, S.G. Enablers and Barriers of Sustainable Manufacturing: Results from a Survey of Researchers
+and Industry Professionals. In Procedia CIRP, Proceedings of the 22nd CIRP Conference on Life Cycle Engineering, Sydney, Australia,
+7–9 April 2015; Kara, S., Ed.; Elsevier B.V.: Amsterdam, The Netherlands, 2015; Volume 29, pp. 562–567.
+152. Manupati, V.K.; Schoenherr, T.; Ramkumar, M.; Wagner, S.M.; Pabba, S.K.; Inder Raj Singh, R. A Blockchain-Based Approach for a
+Multi-Echelon Sustainable Supply Chain. Int. J. Prod. Res. 2020, 58, 2222–2241. [CrossRef]
+153. Afshari, H.; Searcy, C.; Jaber, M.Y. The Role of Eco-Innovation Drivers in Promoting Additive Manufacturing in Supply Chains.
+Int. J. Prod. Econ. 2020, 223. [CrossRef]
+154. Bag, S.; Telukdarie, A.; Pretorius, J.H.C.; Gupta, S. Industry 4.0 and Supply Chain Sustainability: Framework and Future Research
+Directions. Benchmarking 2018. [CrossRef]
+155. Belaud, J.-P.; Prioux, N.; Vialle, C.; Sablayrolles, C. Big Data for Agri-Food 4.0: Application to Sustainability Management for
+by-Products Supply Chain. Comput. Ind. 2019, 111, 41–50. [CrossRef]
+156. Laney, D. 3D Data Management: Controlling Data Volume, Velocity and Variety. META Group Res. Note 2001, 6, 1.
+157. Ren, S.; Zhang, Y.; Liu, Y.; Sakao, T.; Huisingh, D.; Almeida, C.M.V.B. A Comprehensive Review of Big Data Analytics throughout
+Product Lifecycle to Support Sustainable Smart Manufacturing: A Framework, Challenges and Future Research Directions. J.
+Clean. Prod. 2019, 210, 1343–1365. [CrossRef]
+158. Kumar, A.; Shankar, R.; Thakur, L.S. A Big Data Driven Sustainable Manufacturing Framework for Condition-Based Maintenance
+Prediction. J. Comput. Sci. 2018, 27, 428–439. [CrossRef]
+159. Collins, K. Cyber-Physical Production Networks, Real-Time Big Data Analytics, and Cognitive Automation in Sustainable Smart
+Manufacturing. J. Self-Gov. Manag. Econ. 2020, 8, 21–27. [CrossRef]
+160. Dubey, R.; Gunasekaran, A.; Childe, S.J.; Wamba, S.F.; Papadopoulos, T. The Impact of Big Data on World-Class Sustainable
+Manufacturing. Int. J. Adv. Manuf. Technol. 2016, 84, 631–645. [CrossRef]
+161. Hack-Polay, D.; Rahman, M.; Billah, M.M.; Al-Sabbahy, H.Z. Big Data Analytics and Sustainable Textile Manufacturing: Decision-
+Making about the Applications of Biotechnologies in Developing Countries. Manag. Decis. 2020. [CrossRef]
+162. Plumpton, D. Cyber-Physical Systems, Internet of Things, and Big Data in Industry 4.0: DigitalManufacturing Technologies, Business
+Process Optimization, and Sustainable Organizational Performance. Econ. Manag. Financ. Mark. 2019, 14, 23–29. [CrossRef]
+163. Ali, S.S.; Kaur, R.; Persis, D.J.; Saha, R.; Pattusamy, M.; Sreedharan, V.R. Developing a Hybrid Evaluation Approach for the Low
+Carbon Performance on Sustainable Manufacturing Environment. Ann. Oper. Res. 2020. [CrossRef]
+164. Hayhoe, T.; Podhorska, I.; Siekelova, A.; Stehel, V. SustainableManufacturing in Industry 4.0: Cross-Sector Networks ofMultiple
+Supply Chains, Cyber-Physical Production Systems, and Ai-Driven Decision-Making. J. Self-Gov. Manag. Econ. 2019, 7, 31–36.
+[CrossRef]
+165. Jung, H.; Jeon, J.; Choi, D.; Park, J.-Y. Application of Machine Learning Techniques in Injection Molding Quality Prediction:
+Implications on Sustainable Manufacturing Industry. Sustainability 2021, 13, 4120. [CrossRef]
+166. Schorr, S.; Möller, M.; Heib, J.; Fang, S.; Bähre, D. Quality Prediction of Reamed Bores Based on Process Data and Machine
+Learning Algorithm: A Contribution to a More Sustainable Manufacturing. In Procedia Manufacturing, Proceedings of the 17th
+Global Conference on Sustainable Manufacturing, Shanghai, China, 9–11 October 2020; Seliger, G., Kagermann, H., Ganiyusufoglu,
+O.S., Zhang, W., Eds.; Elsevier B.V.: Amsterdam, The Netherlands, 2020; Volume 43, pp. 519–526.
